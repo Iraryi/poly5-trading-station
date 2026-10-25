@@ -56,6 +56,10 @@ The default data locations are `D:\POLYMARKET\data` (station) and `D:\POLYMARKET
 - An order whose result is unknown is locked and reconciled, never resent. Positions are booked only from on-chain-confirmed fills. A 50% drawdown stop latches.
 - Automatic redemption is not implemented. Winning positions must be redeemed in the official account.
 
+## License
+
+MIT — see [LICENSE](LICENSE). The software is provided "as is", without warranty of any kind; you are solely responsible for any use with real money.
+
 ## Privacy
 
 This public copy was redacted: no wallet addresses, account names, balances, order or transaction identifiers, location statements or local user paths. Fixture values in tests are synthetic.
