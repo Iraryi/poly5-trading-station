@@ -1,0 +1,5 @@
+markets replayed 198, rule triggered 4
+3.3 exit: sell at +0.5% net    trades   4 wins   4 losses   0 | pnl   +0.37 per trade +0.092 CI[+0.2,+0.5] | avg win +0.092 avg loss +0.000
+hold to settlement             trades   4 wins   4 losses   0 | pnl   +1.08 per trade +0.269 CI[+0.4,+2.2] | avg win +0.269 avg loss +0.000
+take-profit hit in 4/4 trades, median exit at 252s
+

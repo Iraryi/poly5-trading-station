@@ -1,0 +1,14 @@
+{
+  "id": "polymarket.crypto.btc.5m",
+  "name": "BTC 五分钟 Up/Down",
+  "module_type": "market_template",
+  "version": "0.1.0",
+  "contract_version": "3.0",
+  "entrypoint": "builtins.market_templates.btc_5m",
+  "supported_venues": ["polymarket"],
+  "capabilities": ["PUBLIC_MARKET_READ", "SIMULATION"],
+  "dependencies": ["polymarket.gamma", "polymarket.clob_public"],
+  "enabled_by_default": true,
+  "status": "placeholder",
+  "description": "目标：第一个真实实现的市场模板。当前封包只有规格与离线参考，没有 live 接口。"
+}

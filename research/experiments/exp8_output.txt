@@ -1,0 +1,235 @@
+live quoted predictions since 10-22 18:13 to 10-22 22:34
+
+== per model (live, predictions made before outcome) ==
+direction ON_SKFOREST_G0002_C00008_54a180_FULL judge 0.1138 | decisions  29 trades  11 wins   9 pnl    +4.09 CI[-14.5,+21.1] | favourites 11 pnl +4.09 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00029_5f1e07 judge 0.1138 | decisions  29 trades  10 wins   7 pnl    -5.43 CI[-25.7,+13.1] | favourites 9 pnl -0.10 · longshots 1 pnl -5.33
+direction ON_SKFOREST_G0007_C00039_a99589_FULL judge 0.1212 | decisions  37 trades   9 wins   6 pnl   +46.22 CI[-16.0,+126.3] | favourites 5 pnl +5.05 · longshots 4 pnl +41.17
+direction RECTION_SKFOREST_G0008_C00048_ff00e7 judge 0.1214 | decisions  37 trades   8 wins   5 pnl   +44.33 CI[-17.5,+119.7] | favourites 5 pnl -2.10 · longshots 3 pnl +46.43
+late      5M_LATE_SKFOREST_G0006_C00034_347e86 judge 0.0426 | decisions   8 trades   4 wins   3 pnl    +3.54 CI[-15.5,+24.3] | favourites 2 pnl +0.93 · longshots 2 pnl +2.60
+late      5M_LATE_SKFOREST_G0007_C00042_c6fcb7 judge 0.0449 | decisions   6 trades   4 wins   2 pnl    -3.15 CI[-21.2,+15.7] | favourites 1 pnl +0.46 · longshots 3 pnl -3.62
+late      5M_LATE_SKFOREST_G0006_C00034_fb88f8 judge 0.0439 | decisions   5 trades   3 wins   2 pnl    -3.38 CI[-15.4,+4.0] | favourites 3 pnl -3.38 · longshots 0 pnl +0.00
+late      TE_SKFOREST_G0001_C00002_f19fd4_FULL judge 0.0444 | decisions   6 trades   3 wins   2 pnl    +2.18 CI[-15.8,+21.0] | favourites 1 pnl +0.46 · longshots 2 pnl +1.72
+late      TE_SKFOREST_G0003_C00015_3474a4_FULL judge 0.0425 | decisions   8 trades   2 wins   1 pnl    +2.60 CI[-10.7,+15.9] | favourites 0 pnl +0.00 · longshots 2 pnl +2.60
+late      5M_LATE_SKFOREST_G0008_C00046_5c5a01 judge 0.0440 | decisions   5 trades   2 wins   1 pnl    -3.79 CI[-10.2,+2.7] | favourites 2 pnl -3.79 · longshots 0 pnl +0.00
+late      TE_SKFOREST_G0004_C00023_973f09_FULL judge 0.0437 | decisions   4 trades   2 wins   2 pnl   +15.21 CI[+9.7,+20.8] | favourites 1 pnl +4.83 · longshots 1 pnl +10.39
+late      5M_LATE_SKFOREST_G0003_C00017_88edc8 judge 0.0439 | decisions   4 trades   2 wins   2 pnl   +15.21 CI[+9.7,+20.8] | favourites 1 pnl +4.83 · longshots 1 pnl +10.39
+direction ON_SKFOREST_G0004_C00024_0f24f9_FULL judge 0.1239 | decisions   1 trades   1 wins   0 pnl    -5.17 CI[+0.0,+0.0] | favourites 1 pnl -5.17 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00030_1a66d6 judge 0.1238 | decisions   1 trades   1 wins   0 pnl    -5.17 CI[+0.0,+0.0] | favourites 1 pnl -5.17 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0007_C00042_0cb982_FULL judge 0.1144 | decisions   1 trades   1 wins   0 pnl    -5.19 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.19
+direction RECTION_SKFOREST_G0006_C00032_cb2c8b judge 0.1145 | decisions   1 trades   1 wins   0 pnl    -5.19 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.19
+direction ON_SKFOREST_G0002_C00007_9c69e0_FULL judge 0.1485 | decisions   2 trades   1 wins   0 pnl    -5.14 CI[+0.0,+0.0] | favourites 1 pnl -5.14 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00017_e0fba0 judge 0.1489 | decisions   1 trades   1 wins   0 pnl    -5.14 CI[+0.0,+0.0] | favourites 1 pnl -5.14 · longshots 0 pnl +0.00
+late      TE_SKFOREST_G0004_C00023_d941e5_FULL judge 0.0409 | decisions   3 trades   1 wins   0 pnl    -5.18 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.18
+late      5M_LATE_SKFOREST_G0003_C00018_ba707f judge 0.0411 | decisions   3 trades   1 wins   0 pnl    -5.14 CI[+0.0,+0.0] | favourites 1 pnl -5.14 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00031_7d82c0 judge 0.1345 | decisions   1 trades   1 wins   0 pnl    -5.20 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.20
+direction RECTION_SKFOREST_G0005_C00028_39e77c judge 0.1082 | decisions   1 trades   1 wins   1 pnl    +3.06 CI[+0.0,+0.0] | favourites 1 pnl +3.06 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00012_63a006_FULL judge 0.1101 | decisions   1 trades   1 wins   1 pnl    +1.85 CI[+0.0,+0.0] | favourites 1 pnl +1.85 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00030_494163 judge 0.1063 | decisions   1 trades   1 wins   0 pnl    -5.33 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.33
+direction RECTION_SKFOREST_G0003_C00016_ccbd6e judge 0.1063 | decisions   1 trades   1 wins   0 pnl    -5.33 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.33
+direction ON_SKFOREST_G0001_C00003_d01a97_FULL judge 0.1173 | decisions   1 trades   1 wins   1 pnl    +3.10 CI[+0.0,+0.0] | favourites 1 pnl +3.10 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_32383a judge 0.1177 | decisions   1 trades   1 wins   1 pnl    +3.10 CI[+0.0,+0.0] | favourites 1 pnl +3.10 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00030_d50900 judge 0.1267 | decisions   1 trades   1 wins   1 pnl    +3.10 CI[+0.0,+0.0] | favourites 1 pnl +3.10 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_f3d1f6 judge 0.1161 | decisions   1 trades   1 wins   1 pnl    +3.62 CI[+0.0,+0.0] | favourites 1 pnl +3.62 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00024_a89016 judge 0.1158 | decisions   1 trades   1 wins   0 pnl    -5.32 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.32
+late      5M_LATE_SKFOREST_G0002_C00007_d7bcb2 judge 0.0427 | decisions   1 trades   1 wins   1 pnl    +0.25 CI[+0.0,+0.0] | favourites 1 pnl +0.25 · longshots 0 pnl +0.00
+late      5M_LATE_SKFOREST_G0002_C00011_16bebf judge 0.0428 | decisions   1 trades   1 wins   1 pnl    +0.25 CI[+0.0,+0.0] | favourites 1 pnl +0.25 · longshots 0 pnl +0.00
+late      5M_LATE_SKFOREST_G0001_C00002_b55274 judge 0.0429 | decisions   1 trades   1 wins   1 pnl    +0.25 CI[+0.0,+0.0] | favourites 1 pnl +0.25 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00004_9c9e1a judge 0.1107 | decisions   2 trades   1 wins   1 pnl    +3.06 CI[+0.0,+0.0] | favourites 1 pnl +3.06 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_ff0cd3 judge 0.1107 | decisions   1 trades   1 wins   0 pnl    -5.29 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.29
+direction ON_SKFOREST_G0001_C00003_7d4f48_FULL judge 0.1339 | decisions   2 trades   1 wins   1 pnl    +0.58 CI[+0.0,+0.0] | favourites 1 pnl +0.58 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_855cdc judge 0.1340 | decisions   1 trades   1 wins   1 pnl    +0.58 CI[+0.0,+0.0] | favourites 1 pnl +0.58 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00013_4660f3 judge 0.1136 | decisions   2 trades   1 wins   0 pnl    -5.31 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.31
+direction ON_SKFOREST_G0007_C00038_d0de55_FULL judge 0.1060 | decisions   1 trades   1 wins   1 pnl    +0.96 CI[+0.0,+0.0] | favourites 1 pnl +0.96 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00008_6f00d9 judge 0.1062 | decisions   1 trades   1 wins   0 pnl    -5.29 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.29
+direction RECTION_SKFOREST_G0005_C00025_7335a2 judge 0.1032 | decisions   1 trades   1 wins   0 pnl    -5.33 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.33
+direction ON_SKFOREST_G0003_C00017_cad30f_FULL judge 0.1287 | decisions   1 trades   1 wins   1 pnl    +0.46 CI[+0.0,+0.0] | favourites 1 pnl +0.46 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00001_a1d370 judge 0.1113 | decisions   1 trades   1 wins   0 pnl    -5.17 CI[+0.0,+0.0] | favourites 1 pnl -5.17 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00004_c24dac judge 0.1115 | decisions   1 trades   1 wins   0 pnl    -5.17 CI[+0.0,+0.0] | favourites 1 pnl -5.17 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00038_9631a0 judge 0.1282 | decisions   1 trades   1 wins   0 pnl    -5.17 CI[+0.0,+0.0] | favourites 1 pnl -5.17 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0003_C00014_3d7be8_FULL judge 0.1104 | decisions   3 trades   1 wins   0 pnl    -5.07 CI[+0.0,+0.0] | favourites 1 pnl -5.07 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00013_cb30d5 judge 0.1109 | decisions   1 trades   1 wins   0 pnl    -5.07 CI[+0.0,+0.0] | favourites 1 pnl -5.07 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00024_38bf09 judge 0.1107 | decisions   2 trades   1 wins   0 pnl    -5.34 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.34
+direction ON_SKFOREST_G0002_C00012_b52b97_FULL judge 0.1131 | decisions   3 trades   1 wins   1 pnl    +4.63 CI[+0.0,+0.0] | favourites 1 pnl +4.63 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_bebde7 judge 0.1133 | decisions   1 trades   1 wins   1 pnl    +4.63 CI[+0.0,+0.0] | favourites 1 pnl +4.63 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00026_b43a73 judge 0.1131 | decisions   2 trades   1 wins   0 pnl    -5.04 CI[+0.0,+0.0] | favourites 1 pnl -5.04 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00002_de90b0_FULL judge 0.1029 | decisions   2 trades   1 wins   0 pnl    -5.09 CI[+0.0,+0.0] | favourites 1 pnl -5.09 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00036_b1e664 judge 0.1029 | decisions   1 trades   1 wins   1 pnl   +17.45 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl +17.45
+direction RECTION_SKFOREST_G0001_C00003_113417 judge 0.1110 | decisions   1 trades   1 wins   0 pnl    -5.22 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.22
+direction RECTION_SKFOREST_G0002_C00011_b344d7 judge 0.1087 | decisions   1 trades   1 wins   0 pnl    -5.34 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.34
+direction ON_SKFOREST_G0003_C00018_fad039_FULL judge 0.1128 | decisions   1 trades   1 wins   1 pnl    +2.35 CI[+0.0,+0.0] | favourites 1 pnl +2.35 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00016_6c6126 judge 0.1134 | decisions   1 trades   1 wins   1 pnl    +2.35 CI[+0.0,+0.0] | favourites 1 pnl +2.35 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00010_4cf580 judge 0.1139 | decisions   1 trades   1 wins   1 pnl    +2.35 CI[+0.0,+0.0] | favourites 1 pnl +2.35 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0003_C00013_d49d47_FULL judge 0.1200 | decisions   2 trades   1 wins   1 pnl    +1.11 CI[+0.0,+0.0] | favourites 1 pnl +1.11 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00033_afff81 judge 0.1200 | decisions   1 trades   1 wins   1 pnl    +1.11 CI[+0.0,+0.0] | favourites 1 pnl +1.11 · longshots 0 pnl +0.00
+late      5M_LATE_SKFOREST_G0001_C00006_0d188e judge 0.0443 | decisions   1 trades   1 wins   1 pnl    +1.11 CI[+0.0,+0.0] | favourites 1 pnl +1.11 · longshots 0 pnl +0.00
+late      5M_LATE_SKFOREST_G0001_C00004_242450 judge 0.0444 | decisions   1 trades   1 wins   1 pnl    +1.11 CI[+0.0,+0.0] | favourites 1 pnl +1.11 · longshots 0 pnl +0.00
+late      5M_LATE_SKFOREST_G0003_C00015_3474a4 judge 0.0425 | decisions   1 trades   1 wins   1 pnl    +1.11 CI[+0.0,+0.0] | favourites 1 pnl +1.11 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00006_cb0acc_FULL judge 0.0998 | decisions   1 trades   1 wins   1 pnl    +3.19 CI[+0.0,+0.0] | favourites 1 pnl +3.19 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_b592bd judge 0.0999 | decisions   1 trades   1 wins   1 pnl    +3.19 CI[+0.0,+0.0] | favourites 1 pnl +3.19 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00013_d49d47 judge 0.1200 | decisions   1 trades   1 wins   1 pnl    +3.19 CI[+0.0,+0.0] | favourites 1 pnl +3.19 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00014_169627 judge 0.0998 | decisions   1 trades   1 wins   1 pnl    +2.04 CI[+0.0,+0.0] | favourites 1 pnl +2.04 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00006_cb0acc judge 0.0998 | decisions   1 trades   1 wins   1 pnl    +2.04 CI[+0.0,+0.0] | favourites 1 pnl +2.04 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00003_9c4f13_FULL judge 0.1127 | decisions   1 trades   1 wins   1 pnl    +9.06 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl +9.06
+late      TE_SKFOREST_G0005_C00029_ed64ac_FULL judge 0.0440 | decisions   5 trades   1 wins   1 pnl    +1.33 CI[+0.0,+0.0] | favourites 1 pnl +1.33 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00009_1c3b4d judge 0.1095 | decisions   1 trades   1 wins   1 pnl    +2.46 CI[+0.0,+0.0] | favourites 1 pnl +2.46 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00006_5ceaa7 judge 0.1096 | decisions   1 trades   1 wins   1 pnl    +2.46 CI[+0.0,+0.0] | favourites 1 pnl +2.46 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00003_9d91f3_FULL judge 0.1047 | decisions   2 trades   1 wins   0 pnl    -5.10 CI[+0.0,+0.0] | favourites 1 pnl -5.10 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00010_918ea7 judge 0.1049 | decisions   1 trades   1 wins   0 pnl    -5.10 CI[+0.0,+0.0] | favourites 1 pnl -5.10 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00030_a89768 judge 0.1049 | decisions   1 trades   1 wins   0 pnl    -5.30 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.30
+direction ON_SKFOREST_G0006_C00035_b31968_FULL judge 0.1246 | decisions   2 trades   1 wins   1 pnl    +0.76 CI[+0.0,+0.0] | favourites 1 pnl +0.76 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_fc7f2a judge 0.1033 | decisions   1 trades   1 wins   0 pnl    -5.13 CI[+0.0,+0.0] | favourites 1 pnl -5.13 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00008_c075f1 judge 0.1035 | decisions   1 trades   1 wins   0 pnl    -5.13 CI[+0.0,+0.0] | favourites 1 pnl -5.13 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00001_f334b4 judge 0.1037 | decisions   1 trades   1 wins   0 pnl    -5.13 CI[+0.0,+0.0] | favourites 1 pnl -5.13 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00014_620877 judge 0.1072 | decisions   1 trades   1 wins   1 pnl    +5.23 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl +5.23
+direction ON_SKFOREST_G0001_C00004_23270a_FULL judge 0.1076 | decisions   1 trades   1 wins   0 pnl    -5.18 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.18
+direction RECTION_SKFOREST_G0003_C00014_d60647 judge 0.1076 | decisions   1 trades   1 wins   0 pnl    -5.18 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.18
+direction RECTION_SKFOREST_G0001_C00002_d35923 judge 0.1180 | decisions   2 trades   1 wins   1 pnl    +1.33 CI[+0.0,+0.0] | favourites 1 pnl +1.33 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0006_C00034_0d85ff_FULL judge 0.1176 | decisions   1 trades   1 wins   1 pnl    +1.33 CI[+0.0,+0.0] | favourites 1 pnl +1.33 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00010_558594_FULL judge 0.0992 | decisions   1 trades   1 wins   0 pnl    -5.31 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.31
+direction RECTION_SKFOREST_G0004_C00024_5e209d judge 0.0992 | decisions   1 trades   1 wins   0 pnl    -5.31 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl -5.31
+direction ON_SKFOREST_G0002_C00012_a82b21_FULL judge 0.1048 | decisions   1 trades   1 wins   1 pnl    +2.24 CI[+0.0,+0.0] | favourites 1 pnl +2.24 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00013_8c364c judge 0.1050 | decisions   1 trades   1 wins   1 pnl    +2.24 CI[+0.0,+0.0] | favourites 1 pnl +2.24 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00002_137ba0_FULL judge 0.1218 | decisions   1 trades   1 wins   0 pnl    -5.13 CI[+0.0,+0.0] | favourites 1 pnl -5.13 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00034_952106 judge 0.1215 | decisions   2 trades   1 wins   1 pnl    +2.14 CI[+0.0,+0.0] | favourites 1 pnl +2.14 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00035_80534d judge 0.1215 | decisions   1 trades   1 wins   1 pnl    +2.14 CI[+0.0,+0.0] | favourites 1 pnl +2.14 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00016_627fdb judge 0.1137 | decisions   2 trades   1 wins   1 pnl   +10.39 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl +10.39
+direction ON_SKFOREST_G0007_C00037_8fc37d_FULL judge 0.1135 | decisions   1 trades   1 wins   1 pnl   +10.39 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 1 pnl +10.39
+direction RECTION_SKFOREST_G0003_C00014_579898 judge 0.1403 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00027_b2abbb judge 0.1405 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00028_2b28c1 judge 0.1488 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00003_ea6112_FULL judge 0.1063 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00005_727307 judge 0.1064 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00002_76dfa9_FULL judge 0.1007 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00004_340e93 judge 0.1009 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00031_ee7b8b judge 0.1055 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0003_C00015_82bd90_FULL judge 0.1134 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00022_06add2 judge 0.1133 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0008_C00043_e5329a judge 0.1267 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_81d164 judge 0.1268 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00008_619818_FULL judge 0.1107 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00026_febe98 judge 0.1107 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_75130e judge 0.1207 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00001_e0182e judge 0.1210 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0008_C00047_db5b58 judge 0.1007 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00034_3cb574 judge 0.1082 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_e06c65 judge 0.1104 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00010_7fce77_FULL judge 0.1089 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_e323c1 judge 0.1092 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00001_8666a0_FULL judge 0.1107 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_2e7094 judge 0.1108 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00029_003099 judge 0.1072 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0007_C00037_715b9a_FULL judge 0.1103 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0008_C00046_094f5b judge 0.1102 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00004_66b738_FULL judge 0.1064 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_699ef2 judge 0.1066 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00024_e1fb90 judge 0.1184 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0003_C00017_814847_FULL judge 0.1045 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00016_06a800 judge 0.1045 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00010_62671c_FULL judge 0.1172 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00036_8c57ff judge 0.1172 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00002_45d905_FULL judge 0.1148 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00004_493210 judge 0.1151 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00018_b76368 judge 0.1300 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00011_427279_FULL judge 0.1157 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_8008fc judge 0.1038 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_a01d74 judge 0.1040 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00011_8008fc_FULL judge 0.1038 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00024_86966a judge 0.1038 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_33d788 judge 0.1108 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00004_9c9e1a_FULL judge 0.1107 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00010_698ac4 judge 0.1338 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00025_79dab6 judge 0.1135 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00030_02eaea judge 0.1135 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00001_c6de51 judge 0.0971 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_59e2f4 judge 0.0974 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00008_6f00d9_FULL judge 0.1062 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00012_fea1fe judge 0.1064 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_3de68a judge 0.1064 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0003_C00016_aa6d90_FULL judge 0.1028 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00016_aa6d90 judge 0.1028 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00042_794172 judge 0.1031 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0003_C00018_98cee7_FULL judge 0.1136 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00024_69bf3e judge 0.1136 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00022_65ae0b judge 0.1136 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00017_cad30f judge 0.1287 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00016_9c5444 judge 0.1287 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00012_1e7da2 judge 0.1290 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0004_C00024_bec483_FULL judge 0.1285 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00034_3e3e55 judge 0.1286 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_507d52 judge 0.1110 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00006_0c899d_FULL judge 0.1136 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_0f6e83 judge 0.1135 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0005_C00029_fec9b7_FULL judge 0.1129 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00026_96507a judge 0.1130 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00006_919fc7 judge 0.1136 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00012_3c2ca2 judge 0.1028 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_e6e763 judge 0.1156 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_a154ed judge 0.1160 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0008_C00048_2e1bf1 judge 0.1028 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_e2ead8 judge 0.1154 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00012_f7455b judge 0.1155 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00035_943bf5 judge 0.1149 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00034_7957dc judge 0.1153 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0006_C00035_943bf5_FULL judge 0.1149 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00039_55425f judge 0.1149 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0003_C00014_7de79e_FULL judge 0.1050 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00031_89593d judge 0.1050 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00006_f270d7_FULL judge 0.1108 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00014_7de79e judge 0.1050 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00012_5757cf judge 0.1110 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00002_803f5d judge 0.0994 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00005_be3e66 judge 0.0994 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00006_f270d7 judge 0.1108 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0006_C00031_0ced3c_FULL judge 0.0988 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00032_d536ba judge 0.0989 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00002_15a063_FULL judge 0.1147 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00012_754565 judge 0.1147 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0001_C00004_7b8011_FULL judge 0.1087 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00022_45910e judge 0.1201 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00001_c25b95 judge 0.1128 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00039_be425c judge 0.0994 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00004_059032 judge 0.0974 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00003_5550dd judge 0.0976 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00038_0a760b judge 0.1123 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00008_94a37b judge 0.0969 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00022_0b459e judge 0.0970 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00010_06824a judge 0.1248 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00011_2c9224 judge 0.1251 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00006_af8ef1 judge 0.1252 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00042_aef873 judge 0.1246 | decisions   2 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0002_C00011_af1acf_FULL judge 0.1202 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00018_c08f4f judge 0.1203 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0004_C00022_590e29 judge 0.1196 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0005_C00029_c6eda3 judge 0.1198 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0004_C00024_e07df9_FULL judge 0.1070 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00014_36e7ba judge 0.1194 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00007_52a285 judge 0.1195 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00001_8e5ba4 judge 0.1196 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction ON_SKFOREST_G0006_C00032_094166_FULL judge 0.1110 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00034_d5db92 judge 0.1114 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0006_C00034_0d85ff judge 0.1176 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0001_C00001_3498a6 judge 0.1218 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0003_C00017_97a6e1 judge 0.1216 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00039_a99589 judge 0.1212 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0007_C00037_8fc37d judge 0.1135 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+direction RECTION_SKFOREST_G0002_C00007_045e61 judge 0.1137 | decisions   1 trades   0 wins   0 pnl    +0.00 CI[+0.0,+0.0] | favourites 0 pnl +0.00 · longshots 0 pnl +0.00
+
+direction: spearman(judge score, pnl per trade) over 4 models with >=5 trades: +0.80 (negative = better score earns more)
+
+== pooled deployed (_FULL) by hour ==
+late: 9 trades, pnl +16.15 CI[-17.7,+48.9], wins 6
+   hour 18: trades  1 pnl   -5.18 cumulative    -5.18
+   hour 19: trades  2 pnl   +2.60 cumulative    -2.58
+   hour 20: trades  2 pnl   +1.80 cumulative    -0.78
+   hour 21: trades  3 pnl   +6.54 cumulative    +5.76
+   hour 22: trades  1 pnl  +10.39 cumulative   +16.15
+   longshot (price<.5): 6 trades, wins 3, pnl +9.53
+   favourite (price>=.5): 3 trades, wins 3, pnl +6.62
+direction: 38 trades, pnl +51.24 CI[-24.4,+142.2], wins 27
+   hour 18: trades  4 pnl   +0.36 cumulative    +0.36
+   hour 19: trades  7 pnl   +1.44 cumulative    +1.79
+   hour 20: trades  9 pnl  +19.11 cumulative   +20.90
+   hour 21: trades 11 pnl   +8.85 cumulative   +29.75
+   hour 22: trades  7 pnl  +21.49 cumulative   +51.24
+   favourite (price>=.5): 31 trades, wins 24, pnl +10.18
+   longshot (price<.5): 7 trades, wins 3, pnl +41.06

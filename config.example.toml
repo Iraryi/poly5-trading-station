@@ -1,0 +1,142 @@
+# 仅为 Codex 开发目标配置示例；当前交接包不是交易机器人。
+[app]
+mode = "monitor"                 # monitor | paper | replay；以后 live 另设独立明确审批入口
+language = "zh-CN"
+storage_dir = "./data"
+market_duration_seconds = 300
+log_raw_market_events = true
+live_enabled = false             # 不可被策略自行改变
+
+[strategy.early]
+start_seconds = 0
+stop_seconds = 180
+order_budget_usd = "5.00"       # 一次最多 $5，含预估交易费；不满足最小份额就跳过
+watch_net_roi = "0.35"          # ROI 35%：观察阈值，不意味着保证达到，也非强制买卖
+max_seconds_in_trade = 120
+
+[strategy.transition]
+start_seconds = 180
+stop_seconds = 210
+
+[strategy.late]
+start_seconds = 210
+stop_new_entries_seconds = 285 # 末尾 15 秒停新单，只供研究的初始设定
+max_entry_budget_usd = "5.00"  # 示例上限；不是鼓励不断追加
+min_estimated_ev_margin_usd = "0.15" # 初始研究假设，须历史校准
+min_data_completeness = "0.98"
+
+[risk]
+max_simultaneous_exposure_usd = "5.00"
+max_daily_loss_usd = "10.00"
+max_orders_in_flight = 1
+max_data_age_ms = 1500
+max_clock_skew_ms = 500
+max_spread = "0.06"            # 仅为可回测初始候选，不是长期固定最优值
+stop_on_unknown_fill = true
+stop_on_unknown_fee_schedule = true
+stop_on_geoblock = true
+
+[report]
+per_round = true
+hourly = true
+daily = true
+explain_skip_reasons = true
+
+# 桌面版新增设置（示例，不是本交接包已实现的程序设置）
+[desktop]
+platform = "windows"
+start_minimized_to_tray = true    # 默认启动到托盘，不展示主窗
+close_to_tray = true
+minimize_to_tray = true
+autostart_on_login = false        # 独立开关：首次默认不设开机自启
+single_instance = true
+theme = "system"                 # system | dark | light
+language = "zh-CN"
+
+[desktop.copilot]
+placement = "inside_right_edge"  # 必须是主窗口内部右侧边缘，不能独立弹窗
+initial_collapsed = true
+remember_open_state = true
+width_px = 380
+min_width_px = 300
+max_width_px = 620
+hotkey = "Ctrl+Shift+A"
+
+[network]
+geo_endpoint = "https://polymarket.com/api/geoblock"
+geo_cache_seconds = 60
+health_check_interval_seconds = 10
+ws_stale_threshold_ms = 1500
+separate_proxy_for_ai = false
+unknown_geo_disables_live_entries = true
+pause_new_entries_on_route_change = true
+
+[log]
+folder_name = "log"
+format = "jsonl+sqlite"
+record_orderbook_deltas = true
+record_network_changes = true
+record_roi_kinds_separately = true
+record_doi_as_separate_unknown_metric = true
+record_winrate_numerators_denominators = true
+hide_full_ip_in_ui = true
+redact_sensitive_data = true
+
+[ai]
+enabled = false                # 只有配置 API 并批准数据发送后才启用远程调用
+provider = ""                 # 从 设置 -> AI / Models 选择
+model = ""
+allow_ai_trading_decisions = false
+allow_ai_edit_source = false
+allow_ai_edit_live_config = false
+allow_ai_write_advice = true
+advice_folder_name = "ai log"
+auto_analyze_round_end = false  # 缺省不额外发送云端请求
+default_timeout_seconds = 25
+max_concurrent_requests = 1
+max_requests_per_hour = 15
+
+# v3 增加账户可见性与可扩展接口（都是未来应用的配置范例）
+[account]
+active_account_id = ""          # 空：没有连接真实账户
+watch_only_enabled = true         # 可仅输入公开钱包地址查 v2 公开资料
+wallet_address = ""              # 不在模板里写任何真实账户标识
+wallet_type = "unknown"          # deposit / proxy / safe / unknown
+show_sensitive_balance_in_tray_notifications = false
+allow_signed_order_access = false # 经合法授权且显式启用后，另走安全凭据存储
+refresh_positions_seconds = 15    # 遵守 API 限流与实际更新节奏
+refresh_balance_seconds = 15
+refresh_open_orders_seconds = 10  # WS 更新 + REST 定期同步
+orders_ws_enabled = false         # 只有账户认证后启用
+
+[account.display]
+show_cash_balance = true
+show_available_to_buy = true
+show_committed_open_orders = true
+show_portfolio_position_value = true
+show_total_equity_only_when_reconciled = true
+show_realized_and_unrealized_pnl_separately = true
+unknown_balance_placeholder = "—"
+
+[trading_ui]
+manual_order_ticket_enabled = true
+live_order_submit_enabled = false
+always_preview_before_live_submit = true
+show_buy_sell_cancel_state = true
+order_timeout_never_auto_resubmit = true
+
+[extensions]
+manifest_path = "./contracts"
+register_builtins_only = true     # v3 不从远程 URL 执行插件代码
+allow_unsigned_external_plugins = false
+allow_extension_to_override_risk = false
+primary_market_template = "polymarket.crypto.btc.5m"
+feature_registry_schema_version = "3.0"
+
+[extensions.future]
+eth_5m = false
+sol_5m = false
+btc_15m = false
+btc_1h = false
+non_crypto_events = false
+user_strategy_plugins = false

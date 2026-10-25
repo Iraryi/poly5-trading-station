@@ -1,0 +1,57 @@
+  a=a.with_columns(pl.col('price').cut(bands[1:-1],labels=[f'{bands[i]:.2f}-{bands[i+1]:.2f}' for i in range(len(bands)-1)]).alias('band'))
+== A) buying a side at its executable average price (incl. fees), $5 per trade; one row = one decision point
+  offset  60 price 0.10-0.20 n=  451 avg price 0.156 win rate 0.135 | return/$ -0.144 CI[-0.332,+0.061]
+  offset  60 price 0.20-0.35 n= 1308 avg price 0.277 win rate 0.276 | return/$ -0.008 CI[-0.095,+0.076]
+  offset  60 price 0.35-0.50 n= 1798 avg price 0.432 win rate 0.389 | return/$ -0.099 CI[-0.148,-0.048]  <== significant
+  offset  60 price 0.50-0.65 n= 2103 avg price 0.570 win rate 0.562 | return/$ -0.014 CI[-0.041,+0.017]
+  offset  60 price 0.65-0.80 n= 1419 avg price 0.723 win rate 0.689 | return/$ -0.046 CI[-0.078,-0.014]  <== significant
+  offset  60 price 0.80-0.90 n=  694 avg price 0.843 win rate 0.836 | return/$ -0.008 CI[-0.040,+0.024]
+  offset  60 price 0.90-0.95 n=  105 avg price 0.922 win rate 0.962 | return/$ +0.043 CI[+0.002,+0.076]  <== significant
+  offset 120 price 0.00-0.10 n=  532 avg price 0.066 win rate 0.058 | return/$ -0.184 CI[-0.452,+0.141]
+  offset 120 price 0.10-0.20 n=  790 avg price 0.147 win rate 0.137 | return/$ -0.061 CI[-0.225,+0.112]
+  offset 120 price 0.20-0.35 n= 1210 avg price 0.269 win rate 0.227 | return/$ -0.154 CI[-0.232,-0.071]  <== significant
+  offset 120 price 0.35-0.50 n= 1229 avg price 0.429 win rate 0.412 | return/$ -0.046 CI[-0.105,+0.017]
+  offset 120 price 0.50-0.65 n= 1318 avg price 0.574 win rate 0.542 | return/$ -0.057 CI[-0.097,-0.021]  <== significant
+  offset 120 price 0.65-0.80 n= 1167 avg price 0.727 win rate 0.733 | return/$ +0.008 CI[-0.026,+0.042]
+  offset 120 price 0.80-0.90 n=  970 avg price 0.851 win rate 0.838 | return/$ -0.014 CI[-0.046,+0.012]
+  offset 120 price 0.90-0.95 n=  440 avg price 0.926 win rate 0.909 | return/$ -0.018 CI[-0.043,+0.010]
+  offset 120 price 0.95-1.01 n=  270 avg price 0.968 win rate 0.967 | return/$ -0.002 CI[-0.025,+0.018]
+  offset 210 price 0.00-0.10 n= 1384 avg price 0.050 win rate 0.034 | return/$ -0.376 CI[-0.562,-0.194]  <== significant
+  offset 210 price 0.10-0.20 n=  594 avg price 0.144 win rate 0.150 | return/$ +0.035 CI[-0.152,+0.202]
+  offset 210 price 0.20-0.35 n=  712 avg price 0.269 win rate 0.236 | return/$ -0.124 CI[-0.251,+0.004]
+  offset 210 price 0.35-0.50 n=  546 avg price 0.422 win rate 0.372 | return/$ -0.119 CI[-0.209,-0.011]  <== significant
+  offset 210 price 0.50-0.65 n=  643 avg price 0.570 win rate 0.568 | return/$ -0.005 CI[-0.054,+0.047]
+  offset 210 price 0.65-0.80 n=  656 avg price 0.728 win rate 0.726 | return/$ -0.005 CI[-0.048,+0.034]
+  offset 210 price 0.80-0.90 n=  638 avg price 0.852 win rate 0.823 | return/$ -0.034 CI[-0.065,+0.002]
+  offset 210 price 0.90-0.95 n=  514 avg price 0.928 win rate 0.912 | return/$ -0.016 CI[-0.044,+0.009]
+  offset 210 price 0.95-1.01 n= 1049 avg price 0.976 win rate 0.978 | return/$ +0.002 CI[-0.007,+0.011]
+  offset 240 price 0.00-0.10 n= 1314 avg price 0.046 win rate 0.031 | return/$ -0.456 CI[-0.616,-0.240]  <== significant
+  offset 240 price 0.10-0.20 n=  455 avg price 0.145 win rate 0.092 | return/$ -0.379 CI[-0.537,-0.201]  <== significant
+  offset 240 price 0.20-0.35 n=  486 avg price 0.270 win rate 0.233 | return/$ -0.155 CI[-0.292,-0.016]  <== significant
+  offset 240 price 0.35-0.50 n=  354 avg price 0.425 win rate 0.370 | return/$ -0.137 CI[-0.247,-0.017]  <== significant
+  offset 240 price 0.50-0.65 n=  437 avg price 0.570 win rate 0.558 | return/$ -0.024 CI[-0.084,+0.034]
+  offset 240 price 0.65-0.80 n=  442 avg price 0.732 win rate 0.726 | return/$ -0.007 CI[-0.072,+0.049]
+  offset 240 price 0.80-0.90 n=  465 avg price 0.854 win rate 0.877 | return/$ +0.028 CI[-0.005,+0.062]
+  offset 240 price 0.90-0.95 n=  399 avg price 0.928 win rate 0.935 | return/$ +0.008 CI[-0.020,+0.032]
+  offset 240 price 0.95-1.01 n= 1050 avg price 0.979 win rate 0.979 | return/$ -0.000 CI[-0.009,+0.008]
+  offset 270 price 0.00-0.10 n=  952 avg price 0.044 win rate 0.025 | return/$ -0.437 CI[-0.646,-0.152]  <== significant
+  offset 270 price 0.10-0.20 n=  177 avg price 0.137 win rate 0.119 | return/$ -0.174 CI[-0.487,+0.152]
+  offset 270 price 0.20-0.35 n=  179 avg price 0.263 win rate 0.246 | return/$ -0.101 CI[-0.313,+0.132]
+  offset 270 price 0.35-0.50 n=  102 avg price 0.421 win rate 0.314 | return/$ -0.275 CI[-0.465,-0.066]  <== significant
+  offset 270 price 0.50-0.65 n=  193 avg price 0.555 win rate 0.544 | return/$ -0.023 CI[-0.090,+0.056]
+  offset 270 price 0.65-0.80 n=  133 avg price 0.731 win rate 0.707 | return/$ -0.027 CI[-0.140,+0.084]
+  offset 270 price 0.80-0.90 n=  174 avg price 0.849 win rate 0.851 | return/$ +0.003 CI[-0.053,+0.063]
+  offset 270 price 0.90-0.95 n=  212 avg price 0.928 win rate 0.915 | return/$ -0.014 CI[-0.055,+0.025]
+  offset 270 price 0.95-1.01 n=  822 avg price 0.979 win rate 0.985 | return/$ +0.006 CI[-0.003,+0.015]
+
+== B) lead-lag: 259194 one-second Up-mid changes; corr(mid change at t, Binance 1s return ending at t-L)
+  L=-3s corr +0.031
+  L=-2s corr +0.042
+  L=-1s corr +0.074
+  L=+0s corr +0.399
+  L=+1s corr +0.116
+  L=+2s corr -0.011
+  L=+3s corr -0.005
+  L=+4s corr -0.000
+  L=+5s corr -0.000
+  after a >3 bps Binance second (n=1329): mean |mid move| next second 0.0304 vs otherwise 0.0114

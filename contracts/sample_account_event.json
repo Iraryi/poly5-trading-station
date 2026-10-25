@@ -1,0 +1,22 @@
+{
+  "schema_version":"3.0",
+  "event_id":"fixture-acct-0001",
+  "event_type":"account.bound_readonly",
+  "observed_at_utc":"2026-10-22T00:00:00Z",
+  "source_at_utc":null,
+  "mode":"monitor",
+  "venue_id":"polymarket",
+  "account_id":"fixture-account-01",
+  "market_id":null,
+  "condition_id":null,
+  "outcome_asset_id":null,
+  "intent_id":null,
+  "order_id":null,
+  "trade_id":null,
+  "source":"offline_fixture",
+  "source_status":"simulated",
+  "freshness_ms":null,
+  "correlation_id":null,
+  "quality_flags":["NO_LIVE_ACCOUNT","FICTIONAL_FIXTURE"],
+  "payload":{"cash_usdc":null,"available_to_buy_usdc":null,"position_value_usdc":null,"wallet_type":"unknown"}
+}

@@ -1,0 +1,14 @@
+{
+  "id": "polymarket.crypto.eth.5m",
+  "name": "ETH 五分钟 Up/Down（以后开发）",
+  "module_type": "market_template",
+  "version": "0.0.1",
+  "contract_version": "3.0",
+  "entrypoint": "not_implemented.eth_5m",
+  "supported_venues": ["polymarket"],
+  "capabilities": [],
+  "dependencies": [],
+  "enabled_by_default": false,
+  "status": "placeholder",
+  "description": "未来功能仅占位，禁用所有 API 和交易动作。"
+}

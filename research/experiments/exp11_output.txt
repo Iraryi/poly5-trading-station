@@ -1,0 +1,9 @@
+markets with dense books 4031
+delay 0.3s threshold 2 bps: trades  963 wins  617 avg price 0.653 pnl    -91.4 roi -0.019 CI[-382.7,+237.6]
+delay 0.3s threshold 3 bps: trades  465 wins  301 avg price 0.671 pnl    -83.8 roi -0.036 CI[-294.6,+147.9]
+delay 0.3s threshold 5 bps: trades  150 wins  111 avg price 0.712 pnl    +36.6 roi +0.049 CI[-75.2,+180.3]
+delay 0.3s threshold 8 bps: trades   39 wins   28 avg price 0.757 pnl    -30.8 roi -0.158 CI[-68.4,+5.2]
+delay 1.0s threshold 2 bps: trades  971 wins  618 avg price 0.656 pnl   -154.3 roi -0.032 CI[-468.5,+155.6]
+delay 1.0s threshold 3 bps: trades  473 wins  307 avg price 0.673 pnl    -42.8 roi -0.018 CI[-287.4,+229.2]
+delay 1.0s threshold 5 bps: trades  152 wins  110 avg price 0.707 pnl    +28.4 roi +0.037 CI[-106.0,+217.0]
+delay 1.0s threshold 8 bps: trades   39 wins   27 avg price 0.745 pnl    -39.4 roi -0.202 CI[-72.7,-6.6]

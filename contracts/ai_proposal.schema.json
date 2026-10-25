@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "poly5://contracts/ai_proposal.schema.json",
+  "title": "AI to Codex suggestion v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "proposal_id", "title", "severity", "status", "created_at_utc",
+    "updated_at_utc", "model", "summary", "evidence_event_ids", "expected",
+    "actual", "reproduction", "hypotheses", "suggested_fix", "tests", "confidence"
+  ],
+  "properties": {
+    "schema_version": {"const": "2.0"},
+    "proposal_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1, "maxLength": 180},
+    "severity": {"enum": ["info", "minor", "major", "critical"]},
+    "status": {"enum": ["draft", "pending_codex", "acknowledged", "resolved", "rejected", "needs_user_review"]},
+    "created_at_utc": {"type": "string", "format": "date-time"},
+    "updated_at_utc": {"type": "string", "format": "date-time"},
+    "model": {"type": "string", "minLength": 1},
+    "summary": {"type": "string", "maxLength": 20000},
+    "evidence_event_ids": {"type": "array", "items": {"type": "string"}},
+    "round_ids": {"type": "array", "items": {"type": "string"}},
+    "expected": {"type": "string"},
+    "actual": {"type": "string"},
+    "reproduction": {"type": "array", "items": {"type": "string"}},
+    "hypotheses": {"type": "array", "items": {"type": "string"}},
+    "suggested_fix": {"type": "string"},
+    "tests": {"type": "array", "items": {"type": "string"}},
+    "rollback": {"type": "string"},
+    "confidence": {"type": "string", "enum": ["low", "medium", "high", "unknown"]},
+    "disclaimer": {"const": "AI 诊断假设，需 Codex 复核并由用户批准才可改代码或实盘配置"}
+  }
+}

@@ -1,0 +1,208 @@
+[
+  {
+    "name": "api-migration",
+    "url": "https://docs.polymarket.com/migrate/data-api-v1-to-v2.md",
+    "observed_at_utc": "2026-10-21T17:03:15.995140+00:00",
+    "status": 200,
+    "sha256": "72d77f6301cd11d6901519c1ed363cd6beb0d964772b40c9d8b30a208d636f76",
+    "bytes": 4771,
+    "elapsed_ms": 2813
+  },
+  {
+    "name": "sdk-migration",
+    "url": "https://docs.polymarket.com/migrate/clob-sdk-to-unified-sdk.md",
+    "observed_at_utc": "2026-10-21T17:03:15.995441+00:00",
+    "status": 200,
+    "sha256": "14a41ee7defa047c9cf0cf6d3dfa23a1a130bd14ce3223c551a8142f8001f771",
+    "bytes": 54513,
+    "elapsed_ms": 703
+  },
+  {
+    "name": "changelog",
+    "url": "https://docs.polymarket.com/changelog/predictions.md",
+    "observed_at_utc": "2026-10-21T17:03:15.996468+00:00",
+    "status": 200,
+    "sha256": "5662b6f86094ccc05a44108052b475a1df9d8cf75c4fc35fa30e97e5f2c2ccb1",
+    "bytes": 30240,
+    "elapsed_ms": 750
+  },
+  {
+    "name": "discovery",
+    "url": "https://docs.polymarket.com/market-data/discover-markets.md",
+    "observed_at_utc": "2026-10-21T17:03:15.996468+00:00",
+    "status": 200,
+    "sha256": "45d15e8cea0bfadd1d8c5d350d2fa48da1d607b27ef1513864451c0c4fb795a7",
+    "bytes": 48075,
+    "elapsed_ms": 735
+  },
+  {
+    "name": "market-details",
+    "url": "https://docs.polymarket.com/market-data/market-details.md",
+    "observed_at_utc": "2026-10-21T17:03:15.996468+00:00",
+    "status": 200,
+    "sha256": "4305f5dad0a42b6ee7c611f257216b21aee1e796734043710167b957e3e697a6",
+    "bytes": 25871,
+    "elapsed_ms": 703
+  },
+  {
+    "name": "ws-market",
+    "url": "https://docs.polymarket.com/api-reference/wss/market.md",
+    "observed_at_utc": "2026-10-21T17:03:15.997456+00:00",
+    "status": 200,
+    "sha256": "0828ba0ecbff80d9e611f6ceb3922ef48a9cd794feab97ede1ab879d7cbd5a79",
+    "bytes": 44907,
+    "elapsed_ms": 781
+  },
+  {
+    "name": "ws-user",
+    "url": "https://docs.polymarket.com/api-reference/wss/user.md",
+    "observed_at_utc": "2026-10-21T17:03:16.689187+00:00",
+    "status": 200,
+    "sha256": "9a96779a7f440327f04f71fce7e5f6b2daa63ca52bf9434206f0b2bca95a37f6",
+    "bytes": 27515,
+    "elapsed_ms": 719
+  },
+  {
+    "name": "orders",
+    "url": "https://docs.polymarket.com/api-reference/trade/get-user-orders.md",
+    "observed_at_utc": "2026-10-21T17:03:16.699997+00:00",
+    "status": 200,
+    "sha256": "d3c05e8291eda7245f14ff6cc61b143af8665f30a98bb96c4faf14f6fa396ffb",
+    "bytes": 10605,
+    "elapsed_ms": 797
+  },
+  {
+    "name": "positions",
+    "url": "https://docs.polymarket.com/api-reference/wallet/list-positions-for-a-user-or-market.md",
+    "observed_at_utc": "2026-10-21T17:03:16.732917+00:00",
+    "status": 200,
+    "sha256": "248adc5d55176cb36f1ad55cdfc063a0ce47b5f69280f8ec99a6666b653a69da",
+    "bytes": 27886,
+    "elapsed_ms": 531
+  },
+  {
+    "name": "value",
+    "url": "https://docs.polymarket.com/api-reference/wallet/get-portfolio-value.md",
+    "observed_at_utc": "2026-10-21T17:03:16.745763+00:00",
+    "status": 200,
+    "sha256": "12ef2adfd3126466cfe32042fdafb7ead83c85cf3e32b2c5fcd4ce11ca1c3e66",
+    "bytes": 11198,
+    "elapsed_ms": 750
+  },
+  {
+    "name": "geoblock-doc",
+    "url": "https://docs.polymarket.com/api-reference/geoblock.md",
+    "observed_at_utc": "2026-10-21T17:03:16.773972+00:00",
+    "status": 200,
+    "sha256": "972902c9064988755020ffce1845814949065859f7d04b97f6b698038952b39d",
+    "bytes": 5855,
+    "elapsed_ms": 594
+  },
+  {
+    "name": "geoblock",
+    "url": "https://polymarket.com/api/geoblock",
+    "observed_at_utc": "2026-10-21T17:03:17.253442+00:00",
+    "status": 200,
+    "sha256": "1874a306931ffd155a643c3948cf2f43eadfa0e7bd5a455f37a2123b0658ec10",
+    "bytes": 88,
+    "sample": {
+      "blocked": false,
+      "country": "XX",
+      "region": ""
+    },
+    "elapsed_ms": 219
+  },
+  {
+    "name": "server-time",
+    "url": "https://clob.polymarket.com/time",
+    "observed_at_utc": "2026-10-21T17:03:17.362043+00:00",
+    "status": 200,
+    "sha256": "44c13d1865e2af84346b469d7b94aa6119abbb294f2f57cc703f0e9c4100f0ff",
+    "bytes": 10,
+    "sample": 1792602199,
+    "elapsed_ms": 375
+  },
+  {
+    "name": "v2-status",
+    "url": "https://data-api.polymarket.com/v2/status",
+    "observed_at_utc": "2026-10-21T17:03:17.409216+00:00",
+    "status": 200,
+    "sha256": "f9033a8ceac9fbcfcecc522296563c6f3b335d750005b773ef352e7774c618f7",
+    "bytes": 897,
+    "sample": {
+      "data": {
+        "computed_at": "2026-10-21T17:03:10Z",
+        "age_seconds": 8,
+        "serving": {
+          "lag_seconds": 2,
+          "worst": "pnl",
+          "mechanisms": [
+            {
+              "name": "activity_feed",
+              "age_seconds": 0
+            },
+            {
+              "name": "custody_balances",
+              "age_seconds": 1,
+              "blocks_behind": 1
+            },
+            {
+              "name": "pnl",
+              "age_seconds": 2,
+              "blocks_behind": 3
+            }
+          ]
+        },
+        "ingestion": {
+          "cursors": 177,
+          "network": "polygon",
+          "chain_id": 137,
+          "max_synced_block": 95931214,
+          "min_synced_block": 95931213,
+          "most_lagged": {
+            "source": "auto_redeem_v2_neg_risk_redemption",
+            "block": 95931213,
+            "behind_max": 1
+          },
+          "lagging": [
+            {
+              "source": "auto_redeem_v2_neg_risk_redemption",
+              "block": 95931213,
+              "behind_max": 1
+            },
+            {
+              "source": "auto_redeem_v3_neg_risk_redemption",
+              "block": 95931213,
+              "behind_max": 1
+            },
+            {
+              "source": "binary_module_legacy_collateral_settled",
+              "block": 95931213,
+              "behind_max": 1
+            },
+            {
+              "source": "binary_module_migration_resolved",
+              "block": 95931213,
+              "behind_max": 1
+            },
+            {
+              "source": "binary_module_position_redeemed",
+              "block": 95931213,
+              "behind_max": 1
+            }
+          ]
+        }
+      }
+    },
+    "elapsed_ms": 453
+  },
+  {
+    "name": "sdk-readme",
+    "url": "https://raw.githubusercontent.com/Polymarket/py-sdk/main/README.md",
+    "observed_at_utc": "2026-10-21T17:03:17.475053+00:00",
+    "status": 200,
+    "sha256": "ad3fde3677d0b2abd368fed7148efbfa560c57d74c3b1f98d22e94e1658d7b51",
+    "bytes": 4476,
+    "elapsed_ms": 531
+  }
+]

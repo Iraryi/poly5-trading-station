@@ -1,0 +1,12 @@
+
+== direction 60/120/210
+  logit   market only  skill_vs_market -0.0018 CI[-0.0035,-0.0003] | min price 0.00:  175 trades pnl   -42.0 [-167,+84] | min price 0.35:  154 trades pnl   +39.6 [-56,+135]
+  logit   market+flow  skill_vs_market -0.0014 CI[-0.0036,+0.0003] | min price 0.00:  237 trades pnl    +6.8 [-129,+153] | min price 0.35:  213 trades pnl   +91.8 [-26,+207]
+  hist-GB market only  skill_vs_market -0.0048 CI[-0.0073,-0.0024] | min price 0.00:  548 trades pnl  -176.4 [-473,+127] | min price 0.35:  412 trades pnl  -168.0 [-337,+5]
+  hist-GB market+flow  skill_vs_market -0.0031 CI[-0.0052,-0.0012] | min price 0.00:  528 trades pnl  -103.4 [-407,+228] | min price 0.35:  385 trades pnl  -108.9 [-280,+58]
+
+== late 240/270
+  logit   market only  skill_vs_market +0.0073 CI[-0.0034,+0.0102] | min price 0.00:  218 trades pnl   +98.7 [+2,+198] | min price 0.35:  203 trades pnl  +157.9 [+69,+246]
+  logit   market+flow  skill_vs_market +0.0068 CI[-0.0031,+0.0104] | min price 0.00:  221 trades pnl   +49.2 [-51,+144] | min price 0.35:  207 trades pnl  +119.2 [+30,+206]
+  hist-GB market only  skill_vs_market +0.0067 CI[-0.0046,+0.0097] | min price 0.00:  214 trades pnl   +81.9 [-50,+219] | min price 0.35:  177 trades pnl  +149.5 [+55,+247]
+  hist-GB market+flow  skill_vs_market +0.0122 CI[-0.0005,+0.0143] | min price 0.00:  204 trades pnl   +91.3 [-41,+222] | min price 0.35:  169 trades pnl  +147.3 [+54,+241]

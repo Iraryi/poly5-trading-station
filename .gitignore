@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.joblib
+*.sqlite*
+data/
+outputs/
+.venv/

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Poly5 Trading Station v3 • Windows UI 离线交互样机</title>
+<style>
+:root{--bg:#0b101b;--panel:#111a29;--panel2:#182336;--line:#28354a;--txt:#e6eaf3;--muted:#93a2bb;--accent:#96b9ff;--teal:#69dac2;--warn:#f6bf78;--red:#f4a8a8}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 70% -20%,#28385355,transparent 50%),var(--bg);color:var(--txt);font-family:Inter,'Segoe UI','Microsoft YaHei',sans-serif;font-size:13px}button,select{font:inherit;color:inherit}button{cursor:pointer}main{width:min(1520px,100%);min-height:780px;margin:auto;display:flex;border:1px solid #32415a;background:#0b101bef;box-shadow:0 18px 110px #020617a8;overflow:hidden;position:relative}.sidebar{width:170px;background:#111827;border-right:1px solid var(--line);padding:18px 11px;flex-shrink:0;display:flex;flex-direction:column}.brand{font-size:18px;font-weight:800;letter-spacing:.7px;margin:4px 9px 27px;display:flex;gap:9px;align-items:center}.brand i{background:linear-gradient(120deg,#79a9ff,#72dcc3);width:29px;height:29px;border-radius:8px;display:grid;place-items:center;color:#101826;font-style:normal;font-size:14px}.navbtn{display:block;text-align:left;width:100%;border:0;background:transparent;border-radius:9px;padding:12px;color:#a8b6d0;margin:1px 0;font-weight:600}.navbtn.active{background:#273c5a;color:#edf3ff}.navbtn:hover{background:#233047}.sidebar-foot{margin-top:auto;background:#1a293b;padding:12px;border-radius:10px;color:var(--muted);line-height:1.6}.workspace{flex:1;min-width:350px;display:flex;flex-direction:column}.top{height:72px;border-bottom:1px solid var(--line);padding:15px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px}.pill{display:inline-flex;align-items:center;gap:6px;border:1px solid #476568;border-radius:9px;padding:6px 10px;background:#1c363b;color:#86dfc7;font-size:11px;font-weight:700}.pill.muted{background:#303047;border-color:#4f4b71;color:#c7c0fc}.head-title{font-size:17px;font-weight:750}.sub{color:var(--muted);font-size:11px;margin-top:4px}.ghost{border:1px solid #33435a;background:#172235;border-radius:8px;padding:8px 11px}.ghost:hover{background:#293c58}.content{padding:21px 22px;overflow-y:auto;max-height:calc(100vh - 96px)}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:13px}.section-head h2{margin:0;font-size:20px}.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.tile{border:1px solid var(--line);border-radius:12px;background:linear-gradient(165deg,#1a2739,#142033);padding:14px;min-height:93px}.lbl{color:var(--muted);font-size:11px}.num{font-size:23px;font-weight:750;margin-top:9px;letter-spacing:-.4px}.tile small{display:block;margin-top:5px;color:#8fa2bd;font-size:10px}.teal{color:var(--teal)}.warn{color:var(--warn)}.red{color:var(--red)}.row{display:grid;grid-template-columns:1.2fr 1fr;gap:11px;margin-top:11px}.card{border:1px solid var(--line);background:#141e2d;border-radius:12px;padding:16px;min-width:0}.card-title{font-weight:750;display:flex;justify-content:space-between;align-items:center;font-size:14px;margin-bottom:10px}.tag{font-size:10px;color:#c8d5ec;background:#2b3a4f;border-radius:5px;padding:4px 7px}.timeline{display:flex;height:9px;border-radius:5px;overflow:hidden;margin-top:18px}.timeline span:nth-child(1){background:#568fd4;flex:6}.timeline span:nth-child(2){background:#7b8da8;flex:1}.timeline span:nth-child(3){background:#5fb5a3;flex:3}.timeline-label{display:flex;justify-content:space-between;color:var(--muted);font-size:10px;margin-top:7px}.bidask{display:grid;grid-template-columns:1fr 1fr;gap:10px}.marketbox{border:1px solid #30445d;background:#16263a;border-radius:10px;padding:12px}.marketbox div:last-child{display:flex;justify-content:space-between;margin-top:12px;font-size:18px;font-weight:750}.bidask .red{border-color:#624550;background:#2c222f}.twap-graph{height:92px;width:100%;display:block}.history{display:grid;gap:8px}.event{padding:10px;background:#1a293c;border-radius:8px;border-left:3px solid #75b0df;font-size:11px;color:#d5dff0}.event.gray{border-color:#b0b2c2}.footnote{color:#9cabc3;font-size:10px;margin-top:15px}.copilot{background:#19283c;width:366px;min-width:304px;max-width:580px;border-left:1px solid #3c4b66;display:flex;flex-direction:column;position:relative;transition:width .16s ease,min-width .16s ease}.copilot.hidden{width:39px;min-width:39px;border-color:#334255}.copilot.hidden .copilot-body,.copilot.hidden .copilot-head{display:none}.openhandle{display:none}.copilot.hidden .openhandle{display:flex;writing-mode:vertical-rl;justify-content:start;align-items:center;margin-top:20px;cursor:pointer;gap:15px;background:transparent;border:0;color:#bdc9e2;font-size:12px;letter-spacing:2px}.resizebar{position:absolute;left:-5px;top:0;bottom:0;width:9px;cursor:col-resize}.copilot.hidden .resizebar{display:none}.copilot-head{height:73px;padding:16px;border-bottom:1px solid #3a4a64;display:flex;justify-content:space-between;align-items:center}.copilot-head strong{font-size:15px}.copilot-body{overflow:auto;padding:16px;flex:1}.ai-tabs{display:flex;gap:5px;margin-bottom:12px;flex-wrap:wrap}.ai-tab{border:1px solid #425471;background:#26374f;padding:6px 8px;border-radius:7px;color:#c6d3ea;font-size:10px}.ai-tab.active{background:#a6bbeb;color:#162337}.ai-panel{border:1px solid #4b5b79;background:#203149;padding:13px;border-radius:11px;line-height:1.65;margin-top:9px}.ai-panel h3{font-size:12px;margin:0 0 7px}.ai-panel p{margin:0;color:#bdcce0;font-size:12px}.bubble{padding:11px 12px;background:#293c57;margin-top:12px;border-radius:11px;font-size:12px;line-height:1.7}. ai-input{display:flex}.ai-form{margin-top:15px;display:flex;gap:6px}.ai-form input{min-width:0;flex:1;background:#0e1829;border:1px solid #526581;color:#eff4fb;border-radius:9px;padding:10px}.action{border:0;background:#94b7fa;color:#122038;border-radius:8px;font-weight:800;padding:9px 10px}.small{font-size:10px}.btnrow{display:flex;gap:7px;flex-wrap:wrap}.alert{border:1px solid #68564a;border-radius:8px;padding:9px;background:#3b302a;color:#ffd09a;margin-bottom:13px;font-size:11px}.hidden-page{display:none}.status-dot{display:inline-block;width:7px;height:7px;background:#69dac2;border-radius:100%;margin-right:6px}.network-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mini{color:#d7e2f2;line-height:1.75;font-size:11px}
+.account-ribbon{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;margin-bottom:12px}
+.a-metric{min-width:0;padding:11px 9px;border:1px solid #33465d;border-radius:10px;background:#17253b}
+.a-metric b{display:block;font-size:17px;margin-top:7px;color:#e5f2ff}
+.a-metric .lbl{font-size:10px}
+.a-metric small{display:block;color:#8798b1;margin-top:4px;font-size:10px}
+.interrupt-banner{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid #374d65;border-radius:10px;background:#182942;padding:12px 13px;margin-bottom:15px}
+.tablist{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0 13px}
+.tablist button{background:#1e3049;border:1px solid #435672;color:#cedcf0;padding:7px 12px;border-radius:8px}
+.tablist button.active{color:#162033;background:#a4c4ec}
+.info-table{border-collapse:collapse;width:100%;font-size:12px;table-layout:fixed}
+.info-table th,.info-table td{border-bottom:1px solid #2e3b50;padding:12px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.info-table th{color:#90a4c1;font-size:11px;font-weight:600}
+.empty{border:1px dashed #46607c;border-radius:10px;padding:18px;color:#a9bedb;text-align:center;background:#17253a;font-size:12px}
+.mode-pill{background:#3a3449;color:#dcc8fa;border-radius:8px;padding:4px 8px;font-size:10px}
+.wide-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.wide-actions button{padding:8px 11px}
+button[disabled]{opacity:.44;cursor:not-allowed}
+.moduleitem{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid #33455d;padding:13px;border-radius:11px;margin-top:9px;background:#182638}
+.demo{position:absolute;right:10px;bottom:7px;color:#8c9fba;font-size:9px;pointer-events:none;opacity:.8}select{border:1px solid #44566b;border-radius:8px;background:#1d3046;padding:7px;max-width:140px}@media(max-width:1180px){.account-ribbon{grid-template-columns:repeat(3,minmax(0,1fr))}.sidebar{width:118px}.tiles{grid-template-columns:repeat(2,1fr)}.row{grid-template-columns:1fr}.copilot{width:330px}}@media(max-width:780px){.account-ribbon{grid-template-columns:repeat(2,minmax(0,1fr))}.sidebar{width:66px}.navbtn{font-size:10px;padding:9px 4px}.brand{font-size:0;margin:4px 4px 22px}.workspace{min-width:260px}.top{padding:8px}.content{padding:12px}.copilot:not(.hidden){position:absolute;right:0;top:0;bottom:0;z-index:4;box-shadow:-10px 0 20px #0006}}
+</style>
+</head>
+<body>
+<main>
+<nav class="sidebar">
+ <div class="brand"><i>5</i>Poly5 Station</div>
+ <button class="navbtn active" data-page="overview">◫　概览</button>
+ <button class="navbtn" data-page="market">◈　交易台</button>
+ <button class="navbtn" data-page="account">▣　账户中心</button>
+ <button class="navbtn" data-page="orders">▤　持仓订单</button>
+ <button class="navbtn" data-page="stats">▥　个人数据</button>
+ <button class="navbtn" data-page="logs">▤　Log</button>
+ <button class="navbtn" data-page="modules">▦　扩展模块</button>
+ <button class="navbtn" data-page="settings">⚙　设置</button>
+ <div class="sidebar-foot"><div class="pill muted">● 仅模拟</div><div style="margin-top:10px">演示样机<br>未接入 Polymarket</div></div>
+</nav>
+<div class="workspace">
+ <header class="top"><div><div class="head-title">Poly5 Trading Station <span class="tag">BTC · 5m</span></div><div class="sub">账户资产 / 交易台 / 模块化策略 / 右侧 AI · <span class="warn">纯离线演示，不代表实时行情</span></div></div><div class="btnrow"><span class="pill muted">未绑定账户 · DEMO</span><button class="ghost" id="toggle">✦ AI 副驾驶</button></div></header>
+ <div class="content">
+  <div id="page-overview">
+   <div class="section-head"><div><h2>当前轮次概览</h2><div class="sub">时间、盘口、网络与风险状态集中显示</div></div><span class="tag">示例时间轴 · 不计真实收益</span></div>
+   <div class="alert" id="alerts">演示模式：网络和 Polymarket 均未连接。请不要依据此界面交易。</div>
+   <div class="account-ribbon" aria-label="账户摘要（当前未连接）">
+    <div class="a-metric"><span class="lbl">现金余额</span><b>—</b><small>未连接账户</small></div>
+    <div class="a-metric"><span class="lbl">可用买入资金</span><b>—</b><small>需核实可用额度</small></div>
+    <div class="a-metric"><span class="lbl">挂单占用</span><b>—</b><small>等待认证订单</small></div>
+    <div class="a-metric"><span class="lbl">持仓市值</span><b>—</b><small>尚未绑定钱包</small></div>
+    <div class="a-metric"><span class="lbl">今日净盈亏</span><b>—</b><small>缺少真实账本</small></div>
+   </div>
+   <div class="interrupt-banner"><div><b>当前买入 / 卖出进度：</b> <span class="warn">暂无账户订单数据</span><div class="sub">信号不是下单，提交不是成交 · 当前实盘锁定</div></div><button class="ghost jump" data-target="orders">查看订单 →</button></div>
+   <div class="tiles">
+    <div class="tile"><div class="lbl">本轮剩余（示例）</div><div class="num">01:36</div><small>第 3:24 / 5:00</small></div>
+    <div class="tile"><div class="lbl">Net ROI（示例）</div><div class="num">N/A</div><small>未有真实可卖深度</small></div>
+    <div class="tile"><div class="lbl">个人实盘胜率</div><div class="num">—</div><small>0 笔已验证样本</small></div>
+    <div class="tile"><div class="lbl">DOI 数据</div><div class="num">—</div><small>定义待确认 · 保持独立字段</small></div>
+   </div>
+   <div class="row"><section class="card"><div class="card-title">交易阶段 <span class="tag">示例 · 末段观察</span></div><div class="timeline"><span></span><span></span><span></span></div><div class="timeline-label"><span>0:00 早期 ROI</span><span>3:00 过渡</span><span>3:30–5:00</span></div><p class="mini" style="margin-top:15px">最近信号：<b class="warn">暂无有效实盘输入</b><br>末段预测需要同源 60s Chainlink TWAP 与可成交价格。</p></section><section class="card"><div class="card-title">网络与 VPN 诊断 <span class="tag" id="netstatus">未连接</span></div><div class="mini">VPN 客户端标称地区：<b>未知</b><br>Polymarket 实测出口：<b id="geolocation">待检测</b><br>Geoblock：<b id="geoblock">UNKNOWN</b><br>WebSocket：<b id="wsstate">无实时连接</b></div></section></div>
+   <div class="row"><section class="card"><div class="card-title">Up / Down 买卖盘口 <span class="tag">禁止假数据冒充</span></div><div class="bidask"><div class="marketbox"><div class="teal">↑ UP</div><div><span>买 —</span><span>卖 —</span></div></div><div class="marketbox red"><div>↓ DOWN</div><div><span>买 —</span><span>卖 —</span></div></div></div><p class="footnote">实际部署必须同时显示双方深度、数据年龄、手续费和可实现 ROI。</p></section><section class="card"><div class="card-title">Chainlink TWAP 对比 <span class="tag">待连接</span></div><svg class="twap-graph" viewBox="0 0 310 92" role="img" aria-label="未连接行情时无曲线的坐标网格"><path d="M0 16H310 M0 44H310 M0 72H310" stroke="#32455c" stroke-dasharray="3 5"/><text x="86" y="49" fill="#889ab1" font-size="12">暂无行情，不生成虚假曲线</text></svg></section></div>
+  </div>
+  <div id="page-market" class="hidden-page">
+   <div class="section-head"><div><h2>BTC 5m 交易台</h2><div class="sub">未来也可通过市场模块切换其它品种、时间周期</div></div><span class="mode-pill">当前实盘交易未启用</span></div>
+   <div class="row"><section class="card"><div class="card-title">双向盘口与机会计算 <span class="tag">无实时数据</span></div><div class="bidask"><div class="marketbox"><span class="teal">↑ BTC UP</span><div>— / —</div><small class="lbl">bid / ask / 深度待拉取</small></div><div class="marketbox red"><span class="red">↓ BTC DOWN</span><div>— / —</div><small class="lbl">bid / ask / 深度待拉取</small></div></div><p class="footnote">市场行情的中间价不代表可成交价格；完整 ROI 需要真实盘口及手续费。</p></section>
+   <section class="card"><div class="card-title">快速交易票据 <span class="tag">先预览，后确认</span></div><div class="mini">选择方向：<b>未选择</b><br>每单预算上限：<b>$5.00（策略研究设置）</b><br>可用金额：<b>—（未核实）</b><br>手续费：<b>—</b><br>模拟/真钱：<b>只读监控</b></div><div class="wide-actions"><button class="action" disabled title="实盘尚未授权、未核实资金">↑ 买入 Up</button><button class="ghost" disabled>↓ 买入 Down</button><button class="ghost" disabled>卖出持仓</button></div><p class="footnote">这三个按钮都只是被禁用的占位样机，不会提交订单。真实程序先做预览、认证与风险校验。</p></section></div>
+  </div>
+  <div id="page-account" class="hidden-page">
+    <div class="section-head"><div><h2>账户中心</h2><div class="sub">同一个钱包的余额、仓位市值与交易权限必须区分</div></div><span class="mode-pill">未绑定 / 仅监控</span></div>
+    <div class="alert">离线原型未接入钱包、Polymarket API 或个人数据；所有账户金额均为未知（—），不代表 0。</div>
+    <section class="card"><div class="card-title">身份与连接 <span class="tag">读取权限：无</span></div><div class="mini">当前账号：<strong>尚未连接</strong><br>钱包类型：<strong>未知（Deposit / Proxy / Safe）</strong><br>钱包地址：<strong>—</strong><br>CLOB 用户订单 WS：<strong>未连接</strong><br>余额/授权来源：<strong>未校验</strong><br>数据刷新：<strong>—</strong></div><div class="wide-actions"><button class="ghost" id="link-wallet-demo">绑定公开钱包（演示说明）</button><button class="ghost" disabled>认证订单 API</button><button class="ghost" disabled>刷新账户</button></div></section>
+    <div class="account-ribbon" style="margin-top:12px;grid-template-columns:repeat(3,minmax(0,1fr))"><div class="a-metric"><span class="lbl">现金/抵押资产</span><b>—</b><small>不是持仓市值</small></div><div class="a-metric"><span class="lbl">可动用购买力</span><b>—</b><small>非账面现金余额</small></div><div class="a-metric"><span class="lbl">未成交订单占用</span><b>—</b><small>需账本对账</small></div><div class="a-metric"><span class="lbl">持仓市值</span><b>—</b><small>Data API /v2/value</small></div><div class="a-metric"><span class="lbl">估计总权益</span><b>—</b><small>必须避免重复计入</small></div><div class="a-metric"><span class="lbl">已实现 / 浮动 PnL</span><b>— / —</b><small>两个口径分别统计</small></div></div>
+    <section class="card"><div class="card-title">账户对账与权限 <span class="tag">待连接</span></div><div class="mini">公开持仓与持仓估值：可通过 Data API v2 获取（账户地址绑定后）<br>实时本人委托：需认证的用户订单 REST + WebSocket<br>可用买入余额：需钱包资产及挂单占用等校验<br>真钱下单权限：<b class="warn">禁用，需要明确授权且满足规则</b></div></section>
+  </div>
+  <div id="page-orders" class="hidden-page">
+    <div class="section-head"><div><h2>持仓与订单</h2><div class="sub">覆盖当前 BTC 一局以及跨局遗留仓位、挂单和待领回资产</div></div><span class="mode-pill">尚无真实账户数据</span></div>
+    <div class="tablist" role="tablist"><button class="active" data-subtab="active">进行中订单</button><button data-subtab="positions">当前持仓</button><button data-subtab="fills">成交记录</button><button data-subtab="redeem">待领回与历史</button></div>
+    <section class="card" data-subpanel="active"><div class="card-title">订单状态时间线 <span class="tag">需认证账户</span></div><table class="info-table"><thead><tr><th>品种/方向</th><th>委托金额</th><th>已成交</th><th>状态</th><th>操作</th></tr></thead></table><div class="empty">暂无可核实的开放订单。<br>账户未绑定，不是已经确认“0 笔订单”。</div><p class="footnote">未来单笔将显示：意图 → 已提交 → 已接受 → 部分成交 → 全部成交 / 撤单。网络超时显示“结果待核对”，不能自动重下。</p></section>
+    <section class="card hidden-page" data-subpanel="positions"><div class="card-title">持仓清单 <span class="tag">Data API v2</span></div><div class="empty">尚未绑定公开钱包地址。待显示份额、均价、持仓市值、可实现 ROI、结算状态。</div></section>
+    <section class="card hidden-page" data-subpanel="fills"><div class="card-title">逐笔成交 <span class="tag">REST + WS 对账</span></div><div class="empty">暂未读取账户成交记录。未成交单不会记入已实现盈亏。</div></section>
+    <section class="card hidden-page" data-subpanel="redeem"><div class="card-title">已结束 / 可领回 / 失败订单</div><div class="empty">尚未完成账户绑定，无法查看已结算持仓或待领回余额。</div></section>
+    <div class="wide-actions"><button class="ghost" disabled>取消选中挂单</button><button class="ghost" disabled>全部撤单（需再次确认）</button><button class="ghost jump" data-target="account">前往账户中心 →</button></div>
+  </div>
+  <div id="page-modules" class="hidden-page">
+    <div class="section-head"><div><h2>模块与扩展</h2><div class="sub">当前专注 BTC 5 分钟，其余接口先保留，将来逐步开发</div></div><span class="mode-pill">版本化插件架构</span></div>
+    <div class="moduleitem"><div><b>BTC Up / Down · 5m</b><div class="sub">预装目标模板 · 双阶段 ROI / 末段研究策略</div></div><span class="tag">当前开发目标</span></div>
+    <div class="moduleitem"><div><b>账户中心与订单投影</b><div class="sub">Polymarket Data API v2 + CLOB 用户订单 WS</div></div><span class="tag">v3 计划</span></div>
+    <div class="moduleitem"><div><b>ETH / SOL / XRP · 5m</b><div class="sub">预留不同数据源、时间窗口、结算规则接口</div></div><span class="tag">未来 · 未实现</span></div>
+    <div class="moduleitem"><div><b>BTC 15m / 1h / 普通事件市场</b><div class="sub">将来采用独立 MarketTemplate / SettlementRule</div></div><span class="tag">未来 · 未实现</span></div>
+    <div class="moduleitem"><div><b>多策略 / 自定义 AI 工具 / 图表与通知</b><div class="sub">策略与执行隔离，AI 没有下单权限</div></div><span class="tag">未来 · 未实现</span></div>
+    <p class="footnote">本原型的模块条目仅用于验证界面可扩展，不加载外部代码、不联网，也不具备实盘交易能力。</p>
+  </div>
+  <div id="page-stats" class="hidden-page"><div class="section-head"><h2>个人数据</h2></div><div class="card">胜率必须按交易、轮次、阶段、策略版本和模拟/真实口径分开。分子分母为零时显示 N/A，不展示模拟的个人盈利。</div></div>
+  <div id="page-logs" class="hidden-page"><div class="section-head"><h2>Log 与回放</h2></div><div class="history"><div class="event gray">demo-001 · engine.started · monitor</div><div class="event gray">demo-002 · geo.status_changed · UNKNOWN</div><div class="event gray">demo-003 · metric.doi · definition_pending</div></div><p class="footnote">这些是固定离线样例，真实 app 应读取 log/ 事件账本并支持筛选与导出。</p></div>
+  <div id="page-settings" class="hidden-page"><div class="section-head"><h2>设置</h2></div><div class="card">此版本新增账户绑定 / API 凭据授权 / 钱包类型 / 市场模板与扩展配置。真实程序需要 Settings → AI / Models（DSH 风格 provider 配置/密钥保护）、托盘与开机启动、日志目录、隐私与网络诊断设置。</div></div>
+ </div>
+</div>
+<aside class="copilot" id="copilot"><div class="resizebar" id="resize" title="拖动改变副驾驶宽度"></div><button class="openhandle" id="openhandle">✦　展开 AI 副驾驶 →</button><header class="copilot-head"><div><strong>✦ AI 副驾驶</strong><div class="sub">可伸缩 · 连接数据后才诊断</div></div><button id="collapse" class="ghost">»</button></header><div class="copilot-body"><div class="ai-tabs"><button class="ai-tab active" data-ai="summary">概览</button><button class="ai-tab" data-ai="network">VPN 与 API</button><button class="ai-tab" data-ai="diag">运行诊断</button><button class="ai-tab" data-ai="codex">Codex 建议</button></div>
+ <section class="ai-panel" id="ai-summary"><h3>当前局势 · 尚未分析</h3><p>此演示没有调用 AI、行情或 VPN API。实际部署后，副驾驶会引用真实事件 ID、时间戳和数据质量分析市场。</p></section>
+ <section class="ai-panel hidden-page" id="ai-network"><h3>出口与地区</h3><p id="ai-network-text">未连接官方地理检查。示例故障切换功能不会访问网络，也不会修改 VPN。</p></section>
+ <section class="ai-panel hidden-page" id="ai-diag"><h3>运行诊断</h3><p>规则层会先识别 API 响应/WS stale/时钟偏差/成交不一致，再交给模型解释。AI 不控制下单。</p></section>
+ <section class="ai-panel hidden-page" id="ai-codex"><h3>交给 Codex 的建议</h3><p>实际应用允许在 `ai log/` 新建和修改 Markdown/JSON，且每次修改在 `log/ai_file_edits.jsonl` 留痕；此 UI 演示不写磁盘。</p></section>
+ <div class="bubble"><span class="teal">本地提示</span><div>您可以展开或收起我。我在主窗口的右边缘，不另开聊天框。即使没有 AI API，界面也不会消失。</div></div>
+ <div class="ai-form"><input id="question" placeholder="询问当前局势、ROI 或 VPN..." aria-label="副驾驶问题"><button class="action" id="send">发送</button></div>
+ <p class="footnote">真实远程模型只有在用户配置 API 并授权数据发送后运行。</p>
+ <div class="card" style="padding:10px;margin-top:20px"><div class="lbl">诊断模拟场景（仅供界面演示）</div><select id="scenario"><option value="none">未检测</option><option value="changed">出口发生变化</option><option value="blocked">地区受限</option><option value="stale">盘口断流</option></select></div>
+ </div></aside><span class="demo">v3 UI MOCK / ACCOUNT NOT CONNECTED / NO LIVE DATA</span>
+</main>
+<script>
+const aside=document.getElementById('copilot'); const toggle=()=>aside.classList.toggle('hidden');
+document.getElementById('toggle').addEventListener('click',toggle);document.getElementById('collapse').addEventListener('click',toggle);document.getElementById('openhandle').addEventListener('click',toggle);document.addEventListener('keydown',e=>{if(e.ctrlKey&&e.shiftKey&&e.key.toLowerCase()==='a'){e.preventDefault();toggle()}});
+document.querySelectorAll('.navbtn').forEach(el=>el.addEventListener('click',()=>{document.querySelectorAll('.navbtn').forEach(x=>x.classList.remove('active'));el.classList.add('active');document.querySelectorAll('[id^=page-]').forEach(x=>x.classList.add('hidden-page'));document.getElementById('page-'+el.dataset.page).classList.remove('hidden-page')}));
+document.querySelectorAll('.ai-tab').forEach(el=>el.addEventListener('click',()=>{document.querySelectorAll('.ai-tab').forEach(x=>x.classList.remove('active'));el.classList.add('active');document.querySelectorAll('[id^=ai-]').forEach(x=>x.classList.add('hidden-page'));document.getElementById('ai-'+el.dataset.ai).classList.remove('hidden-page')}));
+document.querySelectorAll('.jump').forEach(el=>el.addEventListener('click',()=>{const target=el.dataset.target;document.querySelectorAll('.navbtn').forEach(x=>x.classList.toggle('active',x.dataset.page===target));document.querySelectorAll('[id^=page-]').forEach(x=>x.classList.add('hidden-page'));document.getElementById('page-'+target).classList.remove('hidden-page')}));
+document.querySelectorAll('[data-subtab]').forEach(el=>el.addEventListener('click',()=>{document.querySelectorAll('[data-subtab]').forEach(x=>x.classList.toggle('active',x===el));document.querySelectorAll('[data-subpanel]').forEach(x=>x.classList.toggle('hidden-page',x.dataset.subpanel!==el.dataset.subtab))}));
+document.getElementById('link-wallet-demo').addEventListener('click',()=>alert('离线 UI 样机不读取钱包或 API。最终 EXE 将允许输入您自己的公开钱包地址，实现只读查询，无需私钥。'));
+document.getElementById('send').addEventListener('click',()=>{const q=document.getElementById('question');if(!q.value.trim())return;let b=document.createElement('div');b.className='bubble';b.textContent='离线演示无法调用 AI。请在成品 EXE 中配置 Settings → AI / Models，然后连接日志和行情。';document.querySelector('.ai-form').before(b);q.value=''});
+let dragging=false;document.getElementById('resize').addEventListener('pointerdown',e=>{dragging=true;e.target.setPointerCapture(e.pointerId)});document.getElementById('resize').addEventListener('pointermove',e=>{if(!dragging)return;const rect=document.querySelector('main').getBoundingClientRect();const w=Math.max(304,Math.min(580,rect.right-e.clientX));aside.style.width=w+'px'});document.getElementById('resize').addEventListener('pointerup',()=>dragging=false);
+document.getElementById('scenario').addEventListener('change',e=>{const status=document.getElementById('netstatus'); const loc=document.getElementById('geolocation'); const blocked=document.getElementById('geoblock');const ws=document.getElementById('wsstate');const alert=document.getElementById('alerts');let msg='';switch(e.target.value){case 'changed':status.textContent='出口变化';loc.textContent='模拟：地区切换';blocked.textContent='UNKNOWN';ws.textContent='重新连接中';msg='模拟：代理出口改变。真实程序应记录旧/新国家地区并暂停新增风险。';break;case 'blocked':status.textContent='地区限制';loc.textContent='模拟：受限地区';blocked.textContent='true（模拟）';ws.textContent='未验证';msg='模拟：Polymarket 地区限制，下单应禁用。不能切换代理规避地区限制。';break;case 'stale':status.textContent='行情断流';loc.textContent='待检测';blocked.textContent='UNKNOWN';ws.textContent='STALE（模拟）';msg='模拟：WS 最新消息已过时，即使 geo 正常也不可进场。';break;default:status.textContent='未连接';loc.textContent='待检测';blocked.textContent='UNKNOWN';ws.textContent='无实时连接';msg='演示模式：网络和 Polymarket 均未连接。请不要依据此界面交易。';}alert.textContent=msg;document.getElementById('ai-network-text').textContent=msg+' 此为离线演示，不曾调用官方接口。';});
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "poly5://contracts/account_event.schema.json",
+  "title": "Poly5 v3 账户事件基本契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "event_id", "event_type", "observed_at_utc", "source_at_utc", "mode", "venue_id", "account_id", "source", "payload", "quality_flags"],
+  "properties": {
+    "schema_version": {"const":"3.0"},
+    "event_id": {"type":"string","minLength":1},
+    "event_type": {"type":"string", "pattern":"^[a-z][a-z0-9_]*\\.[a-z][a-z0-9_]*$"},
+    "observed_at_utc": {"type":"string", "format":"date-time"},
+    "source_at_utc": {"type":["string","null"], "format":"date-time"},
+    "mode": {"enum":["monitor","paper","replay","live"]},
+    "venue_id":{"type":"string","minLength":1},
+    "account_id":{"type":"string","minLength":1},
+    "market_id":{"type":["string","null"]},
+    "condition_id":{"type":["string","null"]},
+    "outcome_asset_id":{"type":["string","null"]},
+    "intent_id":{"type":["string","null"]},
+    "order_id":{"type":["string","null"]},
+    "trade_id":{"type":["string","null"]},
+    "source":{"type":"string","minLength":1},
+    "source_status":{"enum":["live","stale","offline","unknown","simulated"]},
+    "freshness_ms":{"type":["integer","null"],"minimum":0},
+    "correlation_id":{"type":["string","null"]},
+    "quality_flags":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+    "payload":{"type":"object"}
+  }
+}

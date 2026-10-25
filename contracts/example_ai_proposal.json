@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0",
+  "proposal_id": "EXAMPLE-001",
+  "title": "示例：WebSocket 断流未提示",
+  "severity": "major",
+  "status": "draft",
+  "created_at_utc": "2026-10-22T00:03:00Z",
+  "updated_at_utc": "2026-10-22T00:03:00Z",
+  "model": "offline-demo-no-real-model",
+  "summary": "此文件是 schema 示例，不是运行时观察结果。",
+  "evidence_event_ids": ["demo-001"],
+  "round_ids": [],
+  "expected": "WS stale 应显示断流状态。",
+  "actual": "演示中暂不真实测量。",
+  "reproduction": ["仅供离线模拟测试"],
+  "hypotheses": ["需要核对行情 watchdog 是否工作"],
+  "suggested_fix": "在停止收到 WS 事件后触发本地告警；由 Codex 用真实断网测试验证。",
+  "tests": ["模拟 WS gap 并检查 UI/Log 同步"],
+  "rollback": "恢复上一个稳定 UI 版本。",
+  "confidence": "unknown",
+  "disclaimer": "AI 诊断假设，需 Codex 复核并由用户批准才可改代码或实盘配置"
+}

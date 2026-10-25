@@ -1,0 +1,10 @@
+historical books 08-08..21   $ 30: trades  393 wins  361 losses  32 | avg entry 0.919 | pnl    +1.01 roi +0.0005 CI[-66.2,+67.2] | avg win +0.446 avg loss -5.000
+live quotes since 10-22      $ 30: trades   23 wins   22 losses   1 | avg entry 0.931 | pnl    +3.78 roi +0.0329 CI[-8.7,+11.9] | avg win +0.400 avg loss -5.021
+historical books 08-08..21   $ 50: trades  154 wins  147 losses   7 | avg entry 0.931 | pnl   +25.26 roi +0.0328 CI[-9.6,+58.1] | avg win +0.410 avg loss -5.000
+live quotes since 10-22      $ 50: trades    4 wins    3 losses   1 | avg entry 0.934 | pnl    -3.80 roi -0.1898 CI[-15.0,+3.2] | avg win +0.408 avg loss -5.021
+historical books 08-08..21   $ 80: trades   53 wins   53 losses   0 | avg entry 0.927 | pnl   +24.41 roi +0.0921 CI[+15.4,+34.2] | avg win +0.461 avg loss +0.000
+live quotes since 10-22      $ 80: trades    1 wins    0 losses   1 | avg entry 0.944 | pnl    -5.02 roi -1.0042 CI[-5.0,-5.0] | avg win +0.000 avg loss -5.021
+historical books 08-08..21   $ 50: trades  154 wins  147 losses   7 | avg entry 0.931 | pnl   +25.26 roi +0.0328 CI[-9.6,+58.1] | avg win +0.410 avg loss -5.000
+drawdown-stop (50%) reached within 20 trades: 0.8% (bootstrap of historical rule outcomes, 20% sizing, $34 start)
+drawdown-stop (50%) reached within 50 trades: 7.0% (bootstrap of historical rule outcomes, 20% sizing, $34 start)
+drawdown-stop (50%) reached within 100 trades: 17.1% (bootstrap of historical rule outcomes, 20% sizing, $34 start)

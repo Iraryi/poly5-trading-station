@@ -1,0 +1,9 @@
+longshot decision rows 10603 | markets 3870 | longshot win rate 0.134 vs avg price 0.154
+test rows 1937 | Brier: market price 0.1212 | logit 0.1232 cal 0.1248 | hist-GB 0.1240 cal 0.1251
+  buy every longshot (once per market):         799 trades wins 166 pnl   -481.2 roi -0.120 CI[-1012,+44]
+  edge 0.03 logit    raw:   77 trades wins  18 pnl    -54.2 roi -0.141 CI[-187,+85] | isotonic:  244 trades wins  62 pnl    -11.4 roi -0.009 CI[-277,+282]
+  edge 0.03 hist-GB  raw:  231 trades wins  59 pnl    +44.7 roi +0.039 CI[-238,+337] | isotonic:  294 trades wins  44 pnl   -375.9 roi -0.256 CI[-683,-58]
+  edge 0.05 logit    raw:   39 trades wins   6 pnl    -87.4 roi -0.448 CI[-158,-1] | isotonic:  167 trades wins  38 pnl    -94.6 roi -0.113 CI[-295,+135]
+  edge 0.05 hist-GB  raw:  157 trades wins  43 pnl    +38.6 roi +0.049 CI[-182,+265] | isotonic:  200 trades wins  25 pnl   -324.6 roi -0.325 CI[-572,-46]
+  edge 0.10 logit    raw:   11 trades wins   1 pnl    -38.6 roi -0.701 CI[-55,-6] | isotonic:   68 trades wins  15 pnl    -30.9 roi -0.091 CI[-169,+124]
+  edge 0.10 hist-GB  raw:   49 trades wins  10 pnl    -31.2 roi -0.127 CI[-149,+99] | isotonic:   30 trades wins   4 pnl    -49.6 roi -0.331 CI[-127,+52]

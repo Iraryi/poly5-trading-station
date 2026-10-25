@@ -1,0 +1,30 @@
+
+===== late: exam window 150 markets (~12.5 h), 64 candidates, $5/trade =====
+single models: final P&L median +38.5 [min +24.9, max +78.5] | lowest point median -5.2, worst -5.2 | max drawdown median 11.0, worst 20.4
+  #1 (champion)          score 0.0277 trades  35 final   +47.1 lowest   -5.2 max drawdown   5.2
+  median-ranked          score 0.0300 trades  40 final   +31.5 lowest   -5.2 max drawdown  15.0
+  last (old champion?)   score 0.0333 trades  23 final   +54.7 lowest   -5.2 max drawdown   5.2
+  several models at once (each its own $5; capital at risk per market up to k x $5):
+    top-3  together: trades  103 final  +132.9 lowest  -15.5 max drawdown  15.7  (per $5 slot: final +44.3, drawdown 5.2)
+    top-5  together: trades  170 final  +210.6 lowest  -25.9 max drawdown  26.2  (per $5 slot: final +42.1, drawdown 5.2)
+    top-10 together: trades  352 final  +409.3 lowest  -51.8 max drawdown  56.6  (per $5 slot: final +40.9, drawdown 5.7)
+    all 64 together: trades 2769 final +2518.0 lowest -293.5 max drawdown 363.1  (per $5 slot: final +39.3, drawdown 5.7)
+    top-3  averaged into ONE vote ($5/trade): trades  34 final   +39.5 lowest   -5.2 max drawdown   6.2
+    top-5  averaged into ONE vote ($5/trade): trades  34 final   +39.5 lowest   -5.2 max drawdown   6.2
+    top-10 averaged into ONE vote ($5/trade): trades  35 final   +39.9 lowest   -5.2 max drawdown   6.2
+  overlap: other candidates take the same market+side as the champion in median 91% of its trades
+
+===== direction: exam window 352 markets (~29.3 h), 64 candidates, $5/trade =====
+single models: final P&L median +32.8 [min -4.5, max +84.8] | lowest point median -25.8, worst -53.5 | max drawdown median 37.8, worst 68.1
+  #1 (champion)          score 0.0972 trades 207 final   +54.3 lowest  -14.5 max drawdown  26.0
+  median-ranked          score 0.0979 trades 185 final    +1.4 lowest  -32.1 max drawdown  32.1
+  last (old champion?)   score 0.1103 trades 159 final   +43.4 lowest  -34.1 max drawdown  60.9
+  several models at once (each its own $5; capital at risk per market up to k x $5):
+    top-3  together: trades  630 final  +172.8 lowest  -34.1 max drawdown  79.4  (per $5 slot: final +57.6, drawdown 26.5)
+    top-5  together: trades 1045 final  +291.7 lowest  -62.4 max drawdown 129.3  (per $5 slot: final +58.3, drawdown 25.9)
+    top-10 together: trades 2092 final  +596.4 lowest -138.4 max drawdown 248.5  (per $5 slot: final +59.6, drawdown 24.8)
+    all 64 together: trades 12998 final +2223.1 lowest -1498.3 max drawdown 1869.5  (per $5 slot: final +34.7, drawdown 29.2)
+    top-3  averaged into ONE vote ($5/trade): trades 209 final   +50.8 lowest  -11.9 max drawdown  25.5
+    top-5  averaged into ONE vote ($5/trade): trades 212 final   +58.3 lowest  -11.9 max drawdown  24.5
+    top-10 averaged into ONE vote ($5/trade): trades 209 final   +87.9 lowest  -13.9 max drawdown  25.8
+  overlap: other candidates take the same market+side as the champion in median 86% of its trades

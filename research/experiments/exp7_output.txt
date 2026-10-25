@@ -1,0 +1,45 @@
+real 4517 | old proxy 18430 | new proxy 24768 | live 121 rows from 1792614900
+
+== A. October live (real Chainlink): 121 rows, 61 markets ==
+forest real only                     brier 0.03113
+forest old     w=0.25 proxy  18430 brier 0.02742  vs real +0.00368 [-0.00161,+0.01010]
+forest old     w=0.5  proxy  18430 brier 0.02704  vs real +0.00406 [-0.00114,+0.01020]
+forest old     w=1.0  proxy  18430 brier 0.02621  vs real +0.00489 [-0.00093,+0.01162]
+forest new     w=0.25 proxy  24680 brier 0.02824  vs real +0.00287 [-0.00300,+0.00772]
+forest new     w=0.5  proxy  24680 brier 0.02707  vs real +0.00403 [-0.00241,+0.00962]
+forest new     w=1.0  proxy  24680 brier 0.02783  vs real +0.00328 [-0.00350,+0.00926]
+forest old+new w=0.25 proxy  43110 brier 0.02621  vs real +0.00488 [-0.00088,+0.01132]  | vs old +0.00120 [-0.00332,+0.00610]
+forest old+new w=0.5  proxy  43110 brier 0.02607  vs real +0.00502 [-0.00122,+0.01133]  | vs old +0.00096 [-0.00382,+0.00573]
+forest old+new w=1.0  proxy  43110 brier 0.02592  vs real +0.00517 [-0.00119,+0.01172]  | vs old +0.00029 [-0.00438,+0.00435]
+hist   real only                     brier 0.02799
+hist   old     w=0.25 proxy  18430 brier 0.02813  vs real -0.00014 [-0.00581,+0.00546]
+hist   old     w=0.5  proxy  18430 brier 0.02871  vs real -0.00071 [-0.00841,+0.00710]
+hist   old     w=1.0  proxy  18430 brier 0.02767  vs real +0.00033 [-0.00794,+0.00893]
+hist   new     w=0.25 proxy  24680 brier 0.02500  vs real +0.00297 [-0.00305,+0.01072]
+hist   new     w=0.5  proxy  24680 brier 0.02506  vs real +0.00291 [-0.00415,+0.01128]
+hist   new     w=1.0  proxy  24680 brier 0.02526  vs real +0.00271 [-0.00455,+0.01173]
+hist   old+new w=0.25 proxy  43110 brier 0.02581  vs real +0.00216 [-0.00483,+0.01041]  | vs old +0.00230 [-0.00037,+0.00623]
+hist   old+new w=0.5  proxy  43110 brier 0.02634  vs real +0.00164 [-0.00553,+0.01002]  | vs old +0.00236 [-0.00040,+0.00557]
+hist   old+new w=1.0  proxy  43110 brier 0.02787  vs real +0.00012 [-0.00804,+0.00924]  | vs old -0.00021 [-0.00367,+0.00283]
+
+== B. proxy holdout 10-14..live start (Binance features, official labels): 3944 rows, 1972 markets ==
+forest real only                     brier 0.04519
+forest old     w=0.25 proxy  18430 brier 0.04260  vs real +0.00260 [+0.00116,+0.00418]
+forest old     w=0.5  proxy  18430 brier 0.04240  vs real +0.00279 [+0.00124,+0.00443]
+forest old     w=1.0  proxy  18430 brier 0.04248  vs real +0.00272 [+0.00097,+0.00449]
+forest new     w=0.25 proxy  20730 brier 0.04124  vs real +0.00395 [+0.00238,+0.00559]
+forest new     w=0.5  proxy  20730 brier 0.04102  vs real +0.00417 [+0.00245,+0.00594]
+forest new     w=1.0  proxy  20730 brier 0.04085  vs real +0.00434 [+0.00247,+0.00624]
+forest old+new w=0.25 proxy  39160 brier 0.04077  vs real +0.00442 [+0.00282,+0.00618]  | vs old +0.00182 [+0.00093,+0.00269]
+forest old+new w=0.5  proxy  39160 brier 0.04068  vs real +0.00451 [+0.00272,+0.00640]  | vs old +0.00172 [+0.00077,+0.00269]
+forest old+new w=1.0  proxy  39160 brier 0.04065  vs real +0.00455 [+0.00272,+0.00645]  | vs old +0.00183 [+0.00088,+0.00282]
+hist   real only                     brier 0.04404
+hist   old     w=0.25 proxy  18430 brier 0.04080  vs real +0.00324 [+0.00156,+0.00501]
+hist   old     w=0.5  proxy  18430 brier 0.04083  vs real +0.00322 [+0.00129,+0.00513]
+hist   old     w=1.0  proxy  18430 brier 0.04121  vs real +0.00283 [+0.00076,+0.00484]
+hist   new     w=0.25 proxy  20730 brier 0.03998  vs real +0.00406 [+0.00255,+0.00569]
+hist   new     w=0.5  proxy  20730 brier 0.04013  vs real +0.00392 [+0.00223,+0.00579]
+hist   new     w=1.0  proxy  20730 brier 0.04021  vs real +0.00383 [+0.00198,+0.00586]
+hist   old+new w=0.25 proxy  39160 brier 0.04023  vs real +0.00381 [+0.00205,+0.00569]  | vs old +0.00057 [-0.00009,+0.00121]
+hist   old+new w=0.5  proxy  39160 brier 0.04023  vs real +0.00381 [+0.00193,+0.00584]  | vs old +0.00060 [-0.00015,+0.00135]
+hist   old+new w=1.0  proxy  39160 brier 0.04027  vs real +0.00377 [+0.00175,+0.00595]  | vs old +0.00094 [+0.00014,+0.00176]

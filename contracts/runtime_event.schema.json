@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Poly5 implemented runtime envelope 3.1",
+  "type": "object",
+  "required": ["schema_version", "event_id", "event_type", "observed_at_utc", "source_at_utc", "mode", "venue_id", "account_id", "payload", "source_status", "quality_flags"],
+  "properties": {
+    "schema_version": {"const": "3.1"},
+    "event_id": {"type": "string", "minLength": 1},
+    "event_type": {"type": "string", "pattern": "^[a-z][a-z0-9_]*\\.[a-z][a-z0-9_]*$"},
+    "observed_at_utc": {"type": "string", "format": "date-time"},
+    "source_at_utc": {"type": ["string", "null"], "format": "date-time"},
+    "mode": {"enum": ["monitor", "paper", "replay"]},
+    "venue_id": {"type": "string"},
+    "account_id": {"type": ["string", "null"]},
+    "source_status": {"enum": ["live", "stale", "offline", "unknown", "simulated"]},
+    "payload": {"type": ["object", "array"]},
+    "quality_flags": {"type": "array"}
+  },
+  "additionalProperties": true
+}

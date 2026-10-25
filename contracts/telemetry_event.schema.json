@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "poly5://contracts/telemetry_event.schema.json",
+  "title": "Poly5 v2 统一事件 Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "event_id", "event_type", "observed_at_utc", "source_at_utc",
+    "session_id", "round_id", "mode", "source", "payload", "quality_flags"
+  ],
+  "properties": {
+    "schema_version": {"const": "2.0"},
+    "event_id": {"type": "string", "minLength": 1, "maxLength": 128},
+    "event_type": {"type": "string", "pattern": "^[a-z][a-z0-9_]*\\.[a-z][a-z0-9_]*$"},
+    "observed_at_utc": {"type": "string", "format": "date-time"},
+    "source_at_utc": {"type": ["string", "null"], "format": "date-time"},
+    "session_id": {"type": "string", "minLength": 1},
+    "round_id": {"type": ["string", "null"]},
+    "market_slug": {"type": ["string", "null"]},
+    "condition_id": {"type": ["string", "null"]},
+    "asset_id": {"type": ["string", "null"]},
+    "strategy_version": {"type": ["string", "null"]},
+    "mode": {"enum": ["monitor", "paper", "replay", "live"]},
+    "source": {"type": "string", "minLength": 1},
+    "monotonic_ns": {"type": ["integer", "null"], "minimum": 0},
+    "latency_ms": {"type": ["number", "null"], "minimum": 0},
+    "freshness_ms": {"type": ["number", "null"], "minimum": 0},
+    "correlation_id": {"type": ["string", "null"]},
+    "quality_flags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "payload": {"type": "object"}
+  }
+}

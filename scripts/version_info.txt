@@ -1,0 +1,13 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(filevers=(3,3,0,14),prodvers=(3,3,0,14),mask=0x3f,flags=0x2,OS=0x40004,fileType=0x1,subtype=0x0,date=(0,0)),
+  kids=[StringFileInfo([StringTable('040904B0',[
+    StringStruct('FileDescription','POLY5 Trading Station'),
+    StringStruct('FileVersion','3.3.0-dev.14'),
+    StringStruct('ProductName','POLY5'),
+    StringStruct('ProductVersion','3.3.0-dev.14'),
+    StringStruct('OriginalFilename','Poly5.exe'),
+    StringStruct('Comments','Local trading terminal; live execution requires explicit user arming')
+  ])]),VarFileInfo([VarStruct('Translation',[1033,1200])])]
+)
+
+

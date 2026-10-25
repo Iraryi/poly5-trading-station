@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "poly5://contracts/extension_manifest.schema.json",
+  "title": "Poly5 v3 受审查的扩展模块清单",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "module_type", "version", "contract_version", "entrypoint", "supported_venues", "capabilities", "enabled_by_default", "status"],
+  "properties": {
+    "id": {"type":"string", "pattern":"^[a-z0-9]+(?:[._-][a-z0-9]+)+$", "maxLength":128},
+    "name": {"type":"string", "minLength":1, "maxLength":80},
+    "module_type": {"enum":["market_template","strategy","account_adapter","execution_adapter","feature","ai_tool"]},
+    "version": {"type":"string", "pattern":"^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "contract_version": {"const":"3.0"},
+    "entrypoint": {"type":"string", "minLength":1},
+    "supported_venues": {"type":"array", "items":{"type":"string"}, "minItems":1},
+    "capabilities": {"type":"array", "uniqueItems":true, "items":{"enum":["PUBLIC_MARKET_READ","PUBLIC_ACCOUNT_READ","AUTHENTICATED_ORDERS_READ","WALLET_BALANCE_READ","SIMULATION","LIVE_MANUAL_ORDER","LIVE_AUTOMATION","CANCEL_ORDERS","REDEEM_POSITIONS","PORTFOLIO_ANALYTICS","AI_DIAGNOSE","AI_SUGGEST_EDIT","GEO_CHECK"]}},
+    "dependencies":{"type":"array", "items":{"type":"string"}, "uniqueItems":true},
+    "enabled_by_default":{"type":"boolean"},
+    "status":{"enum":["implemented","placeholder","disabled"]},
+    "description":{"type":"string"}
+  }
+}

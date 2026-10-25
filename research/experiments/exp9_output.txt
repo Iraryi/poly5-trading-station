@@ -1,0 +1,18 @@
+
+== direction 60/120/210: train 9752 rows, test 1547 rows (572 markets) | market-mid Brier 0.1759
+  market mid as probability              skill_vs_market +0.0000 | paper    0 trades wins    0 pnl     +0.0 CI[+0.0,+0.0] roi +0.000
+  reference-only forest                  skill_vs_market -0.0114 | paper  484 trades wins  271 pnl   -311.7 CI[-501.0,-103.3] roi -0.129
+  market-aware forest                    skill_vs_market -0.0036 | paper  282 trades wins  110 pnl   -302.3 CI[-491.5,-102.8] roi -0.214
+  market-aware forest + isotonic         skill_vs_market -0.0052 | paper  395 trades wins  163 pnl   -100.4 CI[-367.6,+182.3] roi -0.051
+  market-aware extra-trees + sigmoid     skill_vs_market -0.0036 | paper  396 trades wins  193 pnl   -565.0 CI[-707.2,-419.3] roi -0.285
+  market-aware hist-GB                   skill_vs_market -0.0095 | paper  474 trades wins  250 pnl   -180.2 CI[-408.3,+59.0] roi -0.076
+  market-aware logistic                  skill_vs_market -0.0010 | paper  120 trades wins   83 pnl     +8.2 CI[-75.0,+89.3] roi +0.014
+
+== late 240/270: train 3777 rows, test 394 rows (299 markets) | market-mid Brier 0.1076
+  market mid as probability              skill_vs_market +0.0000 | paper    0 trades wins    0 pnl     +0.0 CI[+0.0,+0.0] roi +0.000
+  reference-only forest                  skill_vs_market -0.0333 | paper  215 trades wins   85 pnl   -143.9 CI[-512.3,+424.8] roi -0.134
+  market-aware forest                    skill_vs_market -0.0046 | paper   87 trades wins   55 pnl    +24.4 CI[-61.8,+116.8] roi +0.056
+  market-aware forest + isotonic         skill_vs_market -0.0088 | paper  157 trades wins   83 pnl   -153.7 CI[-257.7,-41.4] roi -0.196
+  market-aware extra-trees + sigmoid     skill_vs_market -0.0026 | paper  157 trades wins   99 pnl   +111.1 CI[-179.5,+632.5] roi +0.142
+  market-aware hist-GB                   skill_vs_market -0.0092 | paper  146 trades wins   97 pnl    -41.2 CI[-132.1,+48.3] roi -0.056
+  market-aware logistic                  skill_vs_market -0.0022 | paper  137 trades wins  114 pnl    +53.8 CI[-11.1,+118.1] roi +0.079

@@ -1,0 +1,11 @@
+markets audited 110 (~9.2 h since re-arm)
+  no $30 signal                                           97
+  signal but ask > 0.965                                  8
+  0.94 < ask <= 0.965 (blocked only by worst-case fee)    2
+  ask <= 0.94 (passes either formula)                     3
+  btc-updown-5m-1792788300 Up   ask 0.910 at 240s  actual cost 0.916 worst-case 0.928  WIN  +0.46
+  btc-updown-5m-1792794900 Down ask 0.890 at 240s  actual cost 0.897 worst-case 0.908  WIN  +0.58
+  btc-updown-5m-1792797900 Up   ask 0.950 at 240s  actual cost 0.953 worst-case 0.968  WIN  +0.24
+  btc-updown-5m-1792798200 Down ask 0.930 at 242s  actual cost 0.935 worst-case 0.949  WIN  +0.35
+  btc-updown-5m-1792803300 Down ask 0.960 at 245s  actual cost 0.963 worst-case 0.978  WIN  +0.19
+  P&L if all were taken at $5: +1.82
